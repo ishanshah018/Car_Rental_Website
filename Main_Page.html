@@ -1,0 +1,1006 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Autoluxe Website(car)</title>
+
+    
+    <!-- style css -->
+    <link rel="stylesheet" href="style.css">
+    <!-- font awesome cdn -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.1/css/all.min.css"
+        integrity="sha512-5Hs3dF2AEPkpNAR7UiOHba+lRSJNeM2ECkwxUIxC1Q/FLycGTbNapWXB4tP889k5T5Ju8fs4b1P5z/iB4nMfSQ=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <!-- swiper slide cdn -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/Swiper/11.0.5/swiper-bundle.css"
+        integrity="sha512-pmAAV1X4Nh5jA9m+jcvwJXFQvCBi3T17aZ1KWkqXr7g/O2YMvO8rfaa5ETWDuBvRq6fbDjlw4jHL44jNTScaKg=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+
+    
+
+    
+
+</head>
+
+<body>
+    <nav class="navbar">
+        <div class="logo">
+            <h2>
+                <a href="#">
+                    <span>Auto</span>Luxe
+                </a>
+            </h2>
+        </div>
+        <ul class="menu_list">
+            <li><a href="#">Home</a></li>
+            <li><a href="#about">About</a></li>
+            <li><a href="#cars">Cars</a></li>
+            <li><a href="#contact">Contact</a></li>
+        </ul>
+        <ul class="nav_right">
+            <li>
+                <i class="fa-solid fa-envelope"></i>
+                <a href="#">+12 345 678 901</a>
+            </li>
+            <li>
+                <i class="fa-solid fa-phone-volume"></i>
+                <a href="#">Autoluxe@gmail.com</a>
+            </li>
+            <i class="fa-solid fa-bars" id="toggle"></i>
+        </ul>
+    </nav>
+
+    <!-- Hero section -->
+    <div class="hero section">
+        <div class="hero_left">
+            <div class="hero_title">
+                <h2>
+                    <span><h6>Rent Your Ride</h6></span>
+                    <span id="text">Top Choice for</span>
+                    <span>Cars</span>
+                </h2>
+                <div class="title_text">Premium</div>
+            </div>
+            <div class="car_details">
+                <h5>Your Dream Ride is just a Click Away</h5>
+                <div class="car_details_main">
+                    <div class="Contact_info">
+                        <div class="Input_Head">
+                            <div class="Input_Box">
+                                <label>Choose Vehicle Type</label>
+                                <select id="vehicleType">
+                                    <option value="" selected disabled>Model</option>
+                                    <option value="sedan_html.html">Sedan</option>
+                                    <option value="suv_html.html">SUV</option>
+                                    <option value="hatchback_html.html">Hatchback</option>
+                                    <option value="elec_html.html">Electric [EV]</option>
+                                </select>
+                            </div>
+                            <div class="Input_Box">
+                                <label>Pick up Location</label>
+                                <select id="pickupLocation">
+                                    <option value="" selected disabled>City</option>
+                                    <option>Ahmedabad</option>
+                                    <option>Surat</option>
+                                    <option>Rajkot</option>
+                                    <option>Bhavnagar</option>
+                                    <option>Gandhinagar</option>
+                                    <option>Vadodara</option>
+                                    <option>Bhuj</option>
+                                    <option>Anand</option>
+                                    <option>Junagadh</option>
+                                </select>
+                            </div>
+                        </div>
+                        <div class="Input_Head">
+                            <div class="Input_Box">
+                                <label>Pick up Date</label>
+                                <div class="Input_Head">
+                                    <div class="date">
+                                        <input type="date" id="pickupDate" placeholder="Date">
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="Input_Box">
+                                <label>Return Date</label>
+                                <div class="Input_Head">
+                                    <div class="date">
+                                        <input type="date" id="returnDate" placeholder="Date">
+                                    </div>
+
+                                </div>
+                            </div>
+                        </div>
+                        <button class="btn" id="searchButton">Search Your Ride</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="hero_right">
+            <div class="hero_mercedes">
+                <div class="mercedes_price">
+                    <div>Mercedes</div>
+                    <div><span>$800</span>/day</div>
+                </div>
+            </div>
+            <img src="image/car (1).png" alt="" id="Hero_Image">
+        </div>
+    </div>
+
+
+    <!-- About Section -->
+    <div class="About section" id="about">
+        <div class="About_image">
+            <img src="image/abus-pic.jpg" alt="">
+        </div>
+        <div class="About_title section_title">
+            <span class="span">About Us</span>
+            <h3>Your Trusted Partner in Assistance and Supports</h3>
+            <p>We are dedicated to supporting individuals and businesses with expert assistance and comprehensive
+                solutions. With a strong foundation of trust and experience, we deliver services designed to meet your
+                unique needs.</p>
+            <ul>
+                <li>
+                    <i class="fa-solid fa-check"></i>
+                    <span>All type Vehicle Available</span>
+                </li>
+                <li>
+                    <i class="fa-solid fa-check"></i>
+                    <span>You Get 24/7 Roadside Assistance</span>
+                </li>
+                <li>
+                    <i class="fa-solid fa-check"></i>
+                    <span>We Are The UK's Largest Provider</span>
+                </li>
+            </ul>
+            <button class="btn">read More</button>
+        </div>
+    </div>
+
+    <!-- Our Adventure Section -->
+    <div class="Our_Adventure section">
+        <div class="Our_Adventure_title section_title">
+            <span class="span">One step towards you</span>
+            <h3>Begin the Adventure of a Lifetime</h3>
+        </div>
+
+        <div class="Our_Adventure_Wrap">
+            <div class="Our_Adventure_Card">
+                <div class="Our_Adventure_Icon">
+                    <img src="image/label.png" alt="">
+                </div>
+                <div class="Our_Adventure_Info">
+                    <h3>Affordable Solutions for Every Wallet</h3>
+                    <p>No matter your budget, we have the perfect deal for you. Enjoy high-quality service and great
+                        value tailored to your needs.</p>
+                </div>
+            </div>
+            <div class="Our_Adventure_Card">
+                <div class="Our_Adventure_Icon">
+                    <img src="image/customer-support.png" alt="">
+                </div>
+                <div class="Our_Adventure_Info">
+                    <h3>Grate Deals, Whatever Your Budget</h3>
+                    <p>From budget-friendly options to premium packages, we offer something for everyone. Get the best
+                        value without compromising on quality</p>
+                </div>
+            </div>
+            <div class="Our_Adventure_Card">
+                <div class="Our_Adventure_Icon">
+                    <img src="image/customer-support.png" alt="">
+                </div>
+                <div class="Our_Adventure_Info">
+                    <h3>Tailored Deals to Fit Your Budget</h3>
+                    <p>We understand that every budget is different. That’s why we offer flexible deals that provide the
+                        best service at a price you can afford.</p>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- Our Feels -->
+
+    <div class="Our_Feels section" id="cars">
+        <div class="Our_Feels_title section_title">
+            <span class="span">Choose your car</span>
+            <h3>Our Vehicle Fleet</h3>
+        </div>
+        <div class="swiper Myswiper">
+            <div class="swiper-wrapper">
+                <div class="swiper-slide">
+                    <div class="Card">
+                        <div class="Card_Image">
+                            <img src="image/pic1.jpg" alt="">
+                        </div>
+                        <div class="Car_details">
+                            <h3>Jeep Renegade</h3>
+                            <ul>
+                                <li>
+                                    <img src="image/car-seat.png" alt="">
+                                    <span>4 Seat</span>
+                                </li>
+                                <li>
+                                    <img src="image/bag.png" alt="">
+                                    <span>4 Bags</span>
+                                </li>
+                                <li>
+                                    <img src="image/car (2).png" alt="">
+                                    <span>4 Suv</span>
+                                </li>
+                            </ul>
+                            <ul class="car_info">
+                                <li>
+                                    Petrol
+                                </li>
+                                <li>
+                                    Diesel
+                                </li>
+                                <li>
+                                    Electrie
+                                </li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+                <div class="swiper-slide">
+                    <div class="Card">
+                        <div class="Card_Image">
+                            <img src="image/pic2.jpg" alt="">
+                        </div>
+                        <div class="Car_details">
+                            <h3>Ferarri Enzo</h3>
+                            <ul>
+                                <li>
+                                    <img src="image/car-seat.png" alt="">
+                                    <span>4 Seat</span>
+                                </li>
+                                <li>
+                                    <img src="image/bag.png" alt="">
+                                    <span>4 Bags</span>
+                                </li>
+                                <li>
+                                    <img src="image/car (2).png" alt="">
+                                    <span>4 Suv</span>
+                                </li>
+                            </ul>
+                            <ul class="car_info">
+                                <li>
+                                    Petrol
+                                </li>
+                                <li>
+                                    Diesel
+                                </li>
+                                <li>
+                                    Electrie
+                                </li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+                <div class="swiper-slide">
+                    <div class="Card">
+                        <div class="Card_Image">
+                            <img src="image/pic3.jpg" alt="">
+                        </div>
+                        <div class="Car_details">
+                            <h3>Mini Cooper</h3>
+                            <ul>
+                                <li>
+                                    <img src="image/car-seat.png" alt="">
+                                    <span>4 Seat</span>
+                                </li>
+                                <li>
+                                    <img src="image/bag.png" alt="">
+                                    <span>4 Bags</span>
+                                </li>
+                                <li>
+                                    <img src="image/car (2).png" alt="">
+                                    <span>4 Suv</span>
+                                </li>
+                            </ul>
+                            <ul class="car_info">
+                                <li>
+                                    Petrol
+                                </li>
+                                <li>
+                                    Diesel
+                                </li>
+                                <li>
+                                    Electrie
+                                </li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+                <div class="swiper-slide">
+                    <div class="Card">
+                        <div class="Card_Image">
+                            <img src="image/pic4.jpg" alt="">
+                        </div>
+                        <div class="Car_details">
+                            <h3>Rolls Royce Cullinan</h3>
+                            <ul>
+                                <li>
+                                    <img src="image/car-seat.png" alt="">
+                                    <span>4 Seat</span>
+                                </li>
+                                <li>
+                                    <img src="image/bag.png" alt="">
+                                    <span>4 Bags</span>
+                                </li>
+                                <li>
+                                    <img src="image/car (2).png" alt="">
+                                    <span>4 Suv</span>
+                                </li>
+                            </ul>
+                            <ul class="car_info">
+                                <li>
+                                    Petrol
+                                </li>
+                                <li>
+                                    Diesel
+                                </li>
+                                <li>
+                                    Electrie
+                                </li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+                <div class="swiper-slide">
+                    <div class="Card">
+                        <div class="Card_Image">
+                            <img src="image/pic5.jpg" alt="">
+                        </div>
+                        <div class="Car_details">
+                            <h3>Porsche 911</h3>
+                            <ul>
+                                <li>
+                                    <img src="image/car-seat.png" alt="">
+                                    <span>4 Seat</span>
+                                </li>
+                                <li>
+                                    <img src="image/bag.png" alt="">
+                                    <span>4 Bags</span>
+                                </li>
+                                <li>
+                                    <img src="image/car (2).png" alt="">
+                                    <span>4 Suv</span>
+                                </li>
+                            </ul>
+                            <ul class="car_info">
+                                <li>
+                                    Petrol
+                                </li>
+                                <li>
+                                    Diesel
+                                </li>
+                                <li>
+                                    Electrie
+                                </li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+                <div class="swiper-slide">
+                    <div class="Card">
+                        <div class="Card_Image">
+                            <img src="image/pic6.jpg" alt="">
+                        </div>
+                        <div class="Car_details">
+                            <h3>Chevrolet Coupe</h3>
+                            <ul>
+                                <li>
+                                    <img src="image/car-seat.png" alt="">
+                                    <span>4 Seat</span>
+                                </li>
+                                <li>
+                                    <img src="image/bag.png" alt="">
+                                    <span>4 Bags</span>
+                                </li>
+                                <li>
+                                    <img src="image/car (2).png" alt="">
+                                    <span>4 Suv</span>
+                                </li>
+                            </ul>
+                            <ul class="car_info">
+                                <li>
+                                    Petrol
+                                </li>
+                                <li>
+                                    Diesel
+                                </li>
+                                <li>
+                                    Electrie
+                                </li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+                <div class="swiper-slide">
+                    <div class="Card">
+                        <div class="Card_Image">
+                            <img src="image/pic7.jpg" alt="">
+                        </div>
+                        <div class="Car_details">
+                            <h3>Ford White SUV</h3>
+                            <ul>
+                                <li>
+                                    <img src="image/car-seat.png" alt="">
+                                    <span>4 Seat</span>
+                                </li>
+                                <li>
+                                    <img src="image/bag.png" alt="">
+                                    <span>4 Bags</span>
+                                </li>
+                                <li>
+                                    <img src="image/car (2).png" alt="">
+                                    <span>4 Suv</span>
+                                </li>
+                            </ul>
+                            <ul class="car_info">
+                                <li>
+                                    Petrol
+                                </li>
+                                <li>
+                                    Diesel
+                                </li>
+                                <li>
+                                    Electrie
+                                </li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+                <div class="swiper-slide">
+                    <div class="Card">
+                        <div class="Card_Image">
+                            <img src="image/pic8.jpg" alt="">
+                        </div>
+                        <div class="Car_details">
+                            <h3>Toyota Crew Cab</h3>
+                            <ul>
+                                <li>
+                                    <img src="image/car-seat.png" alt="">
+                                    <span>4 Seat</span>
+                                </li>
+                                <li>
+                                    <img src="image/bag.png" alt="">
+                                    <span>4 Bags</span>
+                                </li>
+                                <li>
+                                    <img src="image/car (2).png" alt="">
+                                    <span>4 Suv</span>
+                                </li>
+                            </ul>
+                            <ul class="car_info">
+                                <li>
+                                    Petrol
+                                </li>
+                                <li>
+                                    Diesel
+                                </li>
+                                <li>
+                                    Electrie
+                                </li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- Categories -->
+    <div class="Categories section" id="service">
+        <div class="Categories_title section_title">
+            <span class="span">Categories</span>
+            <h3>A look At All Type Of Vehicales</h3>
+        </div>
+
+        <div class="swiper Categories_Swiper">
+            <div class="swiper-wrapper">
+                <div class="swiper-slide">
+                    <div class="Categories_Image">
+                        <img src="image/pic3.jpg" alt="">
+                        <span class="Categories_text">
+                            Hatchback
+                        </span>
+                    </div>
+                </div>
+
+                <div class="swiper-slide">
+                    <div class="Categories_Image">
+                        <img src="image/pic6.jpg" alt="">
+                        <span class="Categories_text">
+                            Coupe
+                        </span>
+                    </div>
+                </div>
+
+                <div class="swiper-slide">
+                    <div class="Categories_Image">
+                        <img src="image/pic8.jpg" alt="">
+                        <span class="Categories_text">
+                            Hybrid
+                        </span>
+                    </div>
+                </div>
+
+                <div class="swiper-slide">
+                    <div class="Categories_Image">
+                        <img src="image/pic13.jpg" alt="">
+                        <span class="Categories_text">
+                            SUV
+                        </span>
+                    </div>
+                </div>
+
+                <div class="swiper-slide">
+                    <div class="Categories_Image">
+                        <img src="image/pic8 (1).jpg" alt="">
+                        <span class="Categories_text">
+                            Sedan
+                        </span>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- Working -->
+    <div class="Working section">
+        <div class="Working_title section_title">
+            <span class="span">How it Work</span>
+            <h3>Following Working Steps</h3>
+        </div>
+        <div class="Working_Wrap">
+            <div class="Working_item">
+                <span>01</span>
+                <div class="Working_Info">
+                    <h4>Choose A Car</h4>
+                    <p>
+                        Check out our range of cars and choose the car of your choice
+                    </p>
+                </div>
+            </div>
+            <div class="Working_item">
+                <span>02</span>
+                <div class="Working_Info">
+                    <h4>Pick Up Date</h4>
+                    <p>
+                        Check out our range of cars and choose the car of your choice
+                    </p>
+                </div>
+            </div>
+            <div class="Working_item">
+                <span>03</span>
+                <div class="Working_Info">
+                    <h4>Confirm Your Booking</h4>
+                    <p>
+                        Check out our range of cars and choose the car of your choice
+                    </p>
+                </div>
+            </div>
+            <div class="Working_item">
+                <span>04</span>
+                <div class="Working_Info">
+                    <h4>Enjoy Driving</h4>
+                    <p>
+                        Check out our range of cars and choose the car of your choice
+                    </p>
+                </div>
+            </div>
+        </div>
+
+        <div class="adv_Cars">
+            <img src="image/adv-car.png" alt="" id="adv_Cars">
+        </div>
+    </div>
+
+    <!-- Testmonials Section -->
+    <div class="Testimonials section">
+        <div class="Testimonials_title section_title">
+            <span class="span">Tesimonials</span>
+            <h3>What Our Customers Say</h3>
+        </div>
+        <div class="swiper Tst_Swiper">
+            <div class="swiper-wrapper">
+                <div class="swiper-slide">
+                    <div class="Testimonials_Item">
+                        <div class="Tst_Top">
+                            <img src="image/pic1 (1).jpg" alt="">
+                            <h4>Kevin Martin <span>Customers</span> </h4>
+                        </div>
+                        <p>
+                            I Was Very Impresed Lorem posuere in miss and drana
+                            en the nisan semere sceriun amiss etiam ornare in
+                            the miss drana is lorem fermen mauris.
+                        </p>
+                        <div class="star">
+                            <i class="fa-solid fa-star"></i>
+                            <i class="fa-solid fa-star"></i>
+                            <i class="fa-solid fa-star"></i>
+                            <i class="fa-solid fa-star"></i>
+                            <i class="fa-solid fa-star"></i>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="swiper-slide">
+                    <div class="Testimonials_Item">
+                        <div class="Tst_Top">
+                            <img src="image/pic2 (1).jpg" alt="">
+                            <h4>Devin Cullen <span>Customers</span> </h4>
+                        </div>
+                        <p>
+                            I Was Very Impresed Lorem posuere in miss and drana
+                            en the nisan semere sceriun amiss etiam ornare in
+                            the miss drana is lorem fermen mauris.
+                        </p>
+                        <div class="star">
+                            <i class="fa-solid fa-star"></i>
+                            <i class="fa-solid fa-star"></i>
+                            <i class="fa-solid fa-star"></i>
+                            <i class="fa-solid fa-star"></i>
+                            <i class="fa-solid fa-star"></i>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="swiper-slide">
+                    <div class="Testimonials_Item">
+                        <div class="Tst_Top">
+                            <img src="image/pic3 (2).jpg" alt="">
+                            <h4>Piter Has <span>Customers</span> </h4>
+                        </div>
+                        <p>
+                            I Was Very Impresed Lorem posuere in miss and drana
+                            en the nisan semere sceriun amiss etiam ornare in
+                            the miss drana is lorem fermen mauris.
+                        </p>
+                        <div class="star">
+                            <i class="fa-solid fa-star"></i>
+                            <i class="fa-solid fa-star"></i>
+                            <i class="fa-solid fa-star"></i>
+                            <i class="fa-solid fa-star"></i>
+                            <i class="fa-solid fa-star"></i>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="swiper-slide">
+                    <div class="Testimonials_Item">
+                        <div class="Tst_Top">
+                            <img src="image/pic2 (1).jpg" alt="">
+                            <h4>Devin Cullen <span>Customers</span> </h4>
+                        </div>
+                        <p>
+                            I Was Very Impresed Lorem posuere in miss and drana
+                            en the nisan semere sceriun amiss etiam ornare in
+                            the miss drana is lorem fermen mauris.
+                        </p>
+                        <div class="star">
+                            <i class="fa-solid fa-star"></i>
+                            <i class="fa-solid fa-star"></i>
+                            <i class="fa-solid fa-star"></i>
+                            <i class="fa-solid fa-star"></i>
+                            <i class="fa-solid fa-star"></i>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- FAQ -->
+    <div class="container mt-5">
+        <h2 class="faq-title">FAQs</h2>
+        <div class="row">
+            <!-- Column 1 -->
+            <div class="col-md-6">
+            <div class="accordion" id="faqAccordionLeft">
+                <!-- FAQ 1 -->
+                <div class="accordion-item">
+                <h2 class="accordion-header" id="headingOne">
+                    <button class="accordion-button" type="button" data-bs-toggle="collapse" data-bs-target="#collapseOne" aria-expanded="true" aria-controls="collapseOne">
+                    What is RideVilla?
+                    </button>
+                </h2>
+                <div id="collapseOne" class="accordion-collapse collapse show" aria-labelledby="headingOne" data-bs-parent="#faqAccordionLeft">
+                    <div class="accordion-body">
+                    RideVilla is a self-drive car rental service that lets you rent a vehicle and take the wheel, offering you complete freedom to manage your trip on your own terms.
+                    </div>
+                </div>
+                </div>
+        
+                <!-- FAQ 2 -->
+                <div class="accordion-item">
+                <h2 class="accordion-header" id="headingTwo">
+                    <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">
+                    What are the requirements to rent a car with RideVilla?
+                    </button>
+                </h2>
+                <div id="collapseTwo" class="accordion-collapse collapse" aria-labelledby="headingTwo" data-bs-parent="#faqAccordionLeft">
+                    <div class="accordion-body">
+                    You need a valid driving license, a government-issued ID, and a payment method to rent a car with RideVilla.
+                    </div>
+                </div>
+                </div>
+        
+                <!-- FAQ 3 -->
+                <div class="accordion-item">
+                <h2 class="accordion-header" id="headingThree">
+                    <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseThree" aria-expanded="false" aria-controls="collapseThree">
+                    How do I book a car?
+                    </button>
+                </h2>
+                <div id="collapseThree" class="accordion-collapse collapse" aria-labelledby="headingThree" data-bs-parent="#faqAccordionLeft">
+                    <div class="accordion-body">
+                    You can book a car through our website or mobile app. Choose your car, select your dates, and complete the payment.
+                    </div>
+                </div>
+                </div>
+        
+                <!-- FAQ 4 -->
+                <div class="accordion-item">
+                <h2 class="accordion-header" id="headingFour">
+                    <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseFour" aria-expanded="false" aria-controls="collapseFour">
+                    Can I modify or cancel my booking?
+                    </button>
+                </h2>
+                <div id="collapseFour" class="accordion-collapse collapse" aria-labelledby="headingFour" data-bs-parent="#faqAccordionLeft">
+                    <div class="accordion-body">
+                    Yes, you can modify or cancel your booking by logging into your account on our platform.
+                    </div>
+                </div>
+                </div>
+            </div>
+            </div>
+        
+            <!-- Column 2 -->
+            <div class="col-md-6">
+            <div class="accordion" id="faqAccordionRight">
+                <!-- FAQ 5 -->
+                <div class="accordion-item">
+                <h2 class="accordion-header" id="headingFive">
+                    <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseFive" aria-expanded="false" aria-controls="collapseFive">
+                    What payment methods are accepted?
+                    </button>
+                </h2>
+                <div id="collapseFive" class="accordion-collapse collapse" aria-labelledby="headingFive" data-bs-parent="#faqAccordionRight">
+                    <div class="accordion-body">
+                    We accept all major credit cards, debit cards, and mobile payment methods.
+                    </div>
+                </div>
+                </div>
+        
+                <!-- FAQ 6 -->
+                <div class="accordion-item">
+                <h2 class="accordion-header" id="headingSix">
+                    <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseSix" aria-expanded="false" aria-controls="collapseSix">
+                    What happens if I'm late returning the car?
+                    </button>
+                </h2>
+                <div id="collapseSix" class="accordion-collapse collapse" aria-labelledby="headingSix" data-bs-parent="#faqAccordionRight">
+                    <div class="accordion-body">
+                    Late returns may incur additional charges as per our policy.
+                    </div>
+                </div>
+                </div>
+        
+                <!-- FAQ 7 -->
+                <div class="accordion-item">
+                <h2 class="accordion-header" id="headingSeven">
+                    <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseSeven" aria-expanded="false" aria-controls="collapseSeven">
+                    Are there any mileage limits?
+                    </button>
+                </h2>
+                <div id="collapseSeven" class="accordion-collapse collapse" aria-labelledby="headingSeven" data-bs-parent="#faqAccordionRight">
+                    <div class="accordion-body">
+                    Yes, the mileage limit depends on the package you choose. Additional charges may apply for exceeding the limit.
+                    </div>
+                </div>
+                </div>
+        
+                <!-- FAQ 8 -->
+                <div class="accordion-item">
+                <h2 class="accordion-header" id="headingEight">
+                    <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseEight" aria-expanded="false" aria-controls="collapseEight">
+                    What should I do if the car breaks down?
+                    </button>
+                </h2>
+                <div id="collapseEight" class="accordion-collapse collapse" aria-labelledby="headingEight" data-bs-parent="#faqAccordionRight">
+                    <div class="accordion-body">
+                    If the car breaks down, contact our 24/7 customer support team immediately for assistance.
+                    </div>
+                </div>
+                </div>
+            </div>
+            </div>
+        </div>
+        </div>
+        
+    <!-- footer -->
+    <footer class="section" id="contact">
+        <div class="Footer_Wrap">
+            <div class="Footer_left">
+                <div class="Flogo logo">
+                    <h2>
+                        <a href="#"><span>Auto</span>Luxe</a>
+                    </h2>
+                </div>
+                <p>We offer a range of the finest and most premium cars and bikes on rent.</p>
+                <ul>
+                    <li>
+                        <i class="fa-solid fa-phone-volume"></i>
+                        <span>123 034 0334</span>
+                    </li>
+                    <li>
+                        <i class="fa-solid fa-envelope"></i>
+                        <span>Autoluxe@gmail.com</span>
+                    </li>
+                    <li>
+                        <i class="fa-solid fa-house"></i>
+                        <span>55/11 ronia towar New York</span>
+                    </li>
+                </ul>
+
+                <ul class="social_icon">
+                    <li>
+                        <i class="fa-brands fa-x-twitter"></i>
+                    </li>
+                    <li>
+                        <i class="fa-brands fa-facebook-f"></i>
+                    </li>
+                    <li>
+                        <i class="fa-brands fa-instagram"></i>
+                    </li>
+                    <li>
+                        <i class="fa-brands fa-pinterest-p"></i>
+                    </li>
+                </ul>
+            </div>
+
+            <div class="Footer_Right">
+                <div class="Footer_menu">
+                    <div class="Footer_col">
+                        <h3>Quick Links</h3>
+                        <ul>
+                            <li>Monday - Frinday:09:00 AM - 09:00 PM</li>
+                            <li>Saturday:09:00 AM - 07:00PM</li>
+                            <li>Sunday:Closed</li>
+                        </ul>
+                    </div>
+                    <div class="Footer_col">
+                        <h3>Quick Links</h3>
+                        <ul>
+                            <li>About Us</li>
+                            <li>FAQ's</li>
+                            <li>Services</li>
+                            <li>Team</li>
+                            <li>Contact</li>
+                        </ul>
+                    </div>
+                    <div class="Footer_col">
+                        <h3>Vehicles Type</h3>
+                        <ul>
+                            <li>
+                                SUV's
+                            </li>
+                            <li>
+                                Convertible
+                            </li>
+                            <li>
+                                Sedan
+                            </li>
+                            <li>
+                                BMW S 1000 RR
+                            </li>
+                            <li>
+                                Hayabusa
+                            </li>
+                        </ul>
+                        <ul>
+                            <li>Sport Coupe</li>
+                            <li>Wagon</li>
+                            <li>Yamaha R15</li>
+                            <li>Kawasaki</li>
+                            <li>Harley Davison</li>
+                        </ul>
+                    </div>
+                </div>
+                <div class="Footer_Right_bottom">
+                    <h3>Subscribe To Our Newsletter Today !</h3>
+                    <div class="FInput_Box">
+                        <input type="text" placeholder="Email address">
+                        <button class="btn">Subscribe</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+    <div class="Footer_Bottom">
+        <p>copyrights All Rights Reserved by <span>K2INFOCOM</span> </p>
+    </div>
+
+
+
+    <!-- swiper slide cdn  -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/Swiper/11.0.5/swiper-bundle.min.js"
+        integrity="sha512-Ysw1DcK1P+uYLqprEAzNQJP+J4hTx4t/3X2nbVwszao8wD+9afLjBQYjz7Uk4ADP+Er++mJoScI42ueGtQOzEA=="
+        crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+
+    <!-- Gsap CDN -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.5/gsap.min.js"
+        integrity="sha512-7eHRwcbYkK4d9g/6tD/mhkf++eoTHwpNM9woBxtPUBWm67zeAfFC+HrdoE2GanKeocly/VxeLvIqwvCdk7qScg=="
+        crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+
+    <!-- script js -->
+    <script src="script.js"></script>
+
+
+
+
+    <script>
+        gsap.from('.logo', {
+            opacity: 0,
+            delay: 1,
+            x: 20,
+        });
+
+        gsap.from(menu.children, {
+            opacity: 0,
+            x: 0,
+            duration: 1,
+            delay: 1.5,
+            stagger: {
+                amount: 1
+            }
+        });
+
+        const menu_right = document.querySelector('.nav_right');
+
+        gsap.from(menu_right.children, {
+            opacity: 0,
+            x: -30,
+            duration: 1,
+            delay: 1.5,
+            stagger: {
+                amount: 1
+            }
+        });
+
+        gsap.from('.hero_title', {
+            opacity: 0,
+            delay: 2,
+            x: -50,
+        });
+
+        gsap.from('.car_details', {
+            opacity: 0,
+            delay: 2,
+            x: 20,
+        });
+
+        gsap.from('#Hero_Image', {
+            opacity: 0,
+            delay: 2.5,
+            scale:0.5,
+            x:-30
+        });
+
+
+        gsap.from('.hero_mercedes', {
+            opacity: 0,
+            delay: 2,
+        });
+
+    </script>
+
+</body>
+
+</html>

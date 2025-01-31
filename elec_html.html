@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>AutoLuxe - Cars</title>
+    <link rel="stylesheet" href="elec_css.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
+</head>
+<body>
+    
+    <!-- Company Filter -->
+    <div class="car-filters">
+        <div class="select-wrapper">
+            <select id="companyFilter" class="custom-select">
+                <option value="all">All Companies</option>
+                <option value="Tata">Tata</option>
+                <option value="Mahindra">Mahindra</option>
+                <option value="MG">MG</option>
+                <option value="Hyundai">Hyundai</option>
+                <option value="BYD">BYD</option>
+                <option value="Mercedes">Mercedes</option>
+                <option value="BMW">BMW</option>
+                <option value="Audi">Audi</option>
+                <option value="Kia">Kia</option>
+            </select>
+        </div>
+    </div>
+
+    <!-- Cars Container -->
+    <div class="cars-container" id="carsContainer">
+        <!-- Cars will be dynamically added here -->
+    </div>
+
+    <!-- Car Details Modal -->
+    <div id="carModal" class="car-modal">
+        <div class="modal-content">
+            <span class="close-modal">&times;</span>
+            <div class="car-details">
+                <!-- Car details will be dynamically added here -->
+            </div>
+        </div>
+    </div>
+
+    <script src="elec_js.js"></script>
+</body>
+</html>
