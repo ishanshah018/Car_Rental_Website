@@ -159,3 +159,51 @@ document.getElementById("searchButton").addEventListener("click", function() {
     // If all fields are valid, redirect to the selected page
     window.location.href = vehicleType;
 });
+
+
+document.addEventListener("DOMContentLoaded", function () {
+    const readMoreBtn = document.getElementById("openPopup"); // Select "Read More" button
+    const popupCard = document.getElementById("popupCard"); // Select Popup
+    const closePopup = document.getElementById("closePopup"); // Select Close Button
+    const popupContent = document.querySelector(".popup-content"); // Select Popup Content
+
+    // Show popup when "Read More" is clicked
+    readMoreBtn.addEventListener("click", function () {
+        popupContent.innerHTML = `
+            
+            
+            <h3>🌟 Why Choose Us?</h3>
+            <ul>
+                <li><i class="fa-solid fa-check"></i> A wide range of vehicles to choose from, including economy, luxury, and SUVs.</li>
+                <li><i class="fa-solid fa-check"></i> Convenient pick-up and drop-off locations, available nationwide.</li>
+                <li><i class="fa-solid fa-check"></i> Flexible rental durations, from daily to long-term options.</li>
+                <li><i class="fa-solid fa-check"></i> Quick and easy booking process, with online reservations available.</li>
+                <li><i class="fa-solid fa-check"></i> Competitive rates with no hidden fees or extra charges.</li>
+                <li><i class="fa-solid fa-check"></i> Easy-to-use Website for booking and managing rentals on the go.</li>
+                <li><i class="fa-solid fa-check"></i> 24/7 customer support to assist with any rental inquiries.</li>
+                <li><i class="fa-solid fa-check"></i> All vehicles are regularly serviced and well-maintained for your safety.</li>
+            </ul>
+
+            <h3>📞 Contact Us</h3>
+            <p>If you need immediate assistance, call our helpline at <br> <strong>+91 9909909909</strong>.</p>
+
+            <button class="btn" id="closePopupBtn">Close</button>
+        `;
+
+        popupCard.style.display = "block";
+        popupCard.style.opacity = "0";
+        setTimeout(() => {
+            popupCard.style.opacity = "1";
+        }, 50);
+
+        // Attach event listener to dynamically created close button
+        document.getElementById("closePopupBtn").addEventListener("click", function () {
+            popupCard.style.display = "none";
+        });
+
+        // Attach event listener to dynamically created close (X) button
+        document.getElementById("closePopup").addEventListener("click", function () {
+            popupCard.style.display = "none";
+        });
+    });
+});
