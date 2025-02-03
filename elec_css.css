@@ -572,7 +572,8 @@ select option {
 .modal-header .price-close:hover .close-tooltip {
     opacity: 1;
     visibility: visible;
-    top: -30px;
+    top: -20px;
+    left: 0px;
 }
 
 .modal-body {

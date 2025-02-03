@@ -3,243 +3,264 @@ const carData = {
     Maruti: [
         {
             name: "Baleno",
-            price: "₹6,61,000 - ₹9,88,000",
+            price: "₹2,500/Day",
             image: "image/Baleno.jpg",
             specs: {
                 engine: "1.2L DualJet Petrol",
                 mileage: "22-24 kmpl",
                 transmission: "Manual/AMT",
-                type: "Hatchback"
+                type: "Hatchback",
+                color:"Blue"
             }
         },
         {
             name: "WagonR",
-            price: "₹5,53,000 - ₹7,41,000",
+            price: "₹1,500/Day",
             image: "image/WagonR.jpg",
             specs: {
                 engine: "1.0L/1.2L Petrol",
                 mileage: "21-25 kmpl",
                 transmission: "Manual/AMT",
-                type: "Hatchback"
+                type: "Hatchback",
+                color:"Red"
             }
         },
         {
             name: "Celerio",
-            price: "₹5,37,000 - ₹7,15,000",
+            price: "₹1,000/Day",
             image: "image/Celerio.jpg",
             specs: {
                 engine: "1.0L Petrol",
                 mileage: "24-26 kmpl",
                 transmission: "Manual/AMT",
-                type: "Hatchback"
+                type: "Hatchback",
+                color:"Blue"
             }
         },
         {
             name: "Alto K10",
-            price: "₹3,99,000 - ₹5,95,000",
+            price: "₹900/Day",
             image: "image/Alto K10.jpg",
             specs: {
                 engine: "1.0L Petrol",
                 mileage: "22-25 kmpl",
                 transmission: "Manual/AMT",
-                type: "Hatchback"
+                type: "Hatchback",
+                color:"Red"
             }
         },
         {
             name: "Ignis",
-            price: "₹5,82,000 - ₹8,14,000",
+            price: "₹1,950/Day",
             image: "image/Ignis.jpg",
             specs: {
                 engine: "1.2L Petrol",
                 mileage: "20-22 kmpl",
                 transmission: "Manual/AMT",
-                type: "Hatchback"
+                type: "Hatchback",
+                color:"Blue"
             }
         }
     ],
     Hyundai: [
         {
             name: "i20",
-            price: "₹7,45,000 - ₹11,88,000",
+            price: "₹2,700/Day",
             image: "image/i20.jpg",
             specs: {
                 engine: "1.0L Turbo/1.2L Petrol",
                 mileage: "20-22 kmpl",
                 transmission: "Manual/Automatic",
-                type: "Hatchback"
+                type: "Hatchback",
+                color:"Red"
             }
         },
         {
             name: "Grand i10 Nios",
-            price: "₹5,69,000 - ₹8,47,000",
+            price: "₹2,200/Day",
             image: "image/Grand i10 Nios.jpg",
             specs: {
                 engine: "1.2L Petrol/1.2L Diesel",
                 mileage: "18-25 kmpl",
                 transmission: "Manual/AMT",
-                type: "Hatchback"
+                type: "Hatchback",
+                color:"Red"
             }
         },
         {
             name: "Santro",
-            price: "₹4,76,000 - ₹6,44,000",
+            price: "₹1,800/Day",
             image: "image/Santro.jpg",
             specs: {
                 engine: "1.1L Petrol",
                 mileage: "20-21 kmpl",
                 transmission: "Manual/AMT",
-                type: "Hatchback"
+                type: "Hatchback",
+                color:"White"
             }
         },
         {
             name: "Eon",
-            price: "₹3,32,000 - ₹4,45,000",
+            price: "₹1,500/Day",
             image: "image/Eon.jpg",
             specs: {
                 engine: "0.8L Petrol",
                 mileage: "20-21 kmpl",
                 transmission: "Manual",
-                type: "Hatchback"
+                type: "Hatchback",
+                color:"Red"
             }
         },
         {
             name: "Creta",
-            price: "₹10,87,000 - ₹19,20,000",
+            price: "₹3,500/Day",
             image: "image/Creta.jpg",
             specs: {
                 engine: "1.5L Petrol/1.5L Diesel",
                 mileage: "16-21 kmpl",
                 transmission: "Manual/Automatic",
-                type: "Compact SUV"
+                type: "Compact SUV",
+                color:"Black"
             }
         },
         {
             name: "Alcazar",
-            price: "₹16,88,000 - ₹21,00,000",
+            price: "₹4,500/Day",
             image: "image/Alcazar.jpg",
             specs: {
                 engine: "1.5L Petrol/1.5L Diesel",
                 mileage: "15-20 kmpl",
                 transmission: "Manual/Automatic",
-                type: "Compact SUV"
+                type: "Compact SUV",
+                color:"Green"
             }
         }
     ],
     "Tata": [
         {
             name: "Altroz",
-            price: "₹6,60,000 - ₹10,25,000",
+            price: "₹1000/Day",
             image: "image/Altroz1.jpg",
             specs: {
                 engine: "1.2L Petrol/1.5L Diesel",
                 mileage: "18-23 kmpl",
                 transmission: "Manual/AMT",
-                type: "Hatchback"
+                type: "Hatchback",
+                color:"Blue"
             }
         },
         {
             name: "Tiago",
-            price: "₹5,59,000 - ₹8,19,000",
+            price: "₹900/Day",
             image: "image/Tiago.1jpg",
             specs: {
                 engine: "1.2L Petrol",
                 mileage: "20-23 kmpl",
                 transmission: "Manual/AMT",
-                type: "Hatchback"
+                type: "Hatchback",
+                color:"Cyan"
             }
         },
         {
             name: "Punch",
-            price: "₹6,00,000 - ₹9,52,000",
+            price: "₹1,200/Day",
             image: "image/Punch.jpg",
             specs: {
                 engine: "1.2L Petrol",
                 mileage: "18-20 kmpl",
                 transmission: "Manual/AMT",
-                type: "Micro SUV"
+                type: "Micro SUV",
+                color:"Blue"
             }
         }
     ],
     Honda: [
         {
             name: "Jazz",
-            price: "₹8,05,000 - ₹10,05,000",
+            price: "₹800/Day",
             image: "image/Jazz.jpg",
             specs: {
                 engine: "1.2L Petrol",
                 mileage: "16-18 kmpl",
                 transmission: "Manual/AMT",
-                type: "Hatchback"
+                type: "Hatchback",
+                color:"Gray"
             }
         },
         {
             name: "WR-V",
-            price: "₹8,76,000 - ₹12,10,000",
+            price: "₹1,200/Day",
             image: "image/WR-V.jpg",
             specs: {
                 engine: "1.2L Petrol/1.5L Diesel",
                 mileage: "16-22 kmpl",
                 transmission: "Manual",
-                type: "Compact SUV"
+                type: "Compact SUV",
+                color:"Red"
             }
         },
         {
             name: "Brio",
-            price: "₹4,73,000 - ₹6,82,000",
+            price: "₹1,000/Day",
             image: "image/Brio.jpg",
             specs: {
                 engine: "1.2L Petrol",
                 mileage: "16-19 kmpl",
                 transmission: "Manual/AMT",
-                type: "Hatchback"
+                type: "Hatchback",
+                color:"Yellow"
             }
         }
     ],
     Renault: [
         {
             name: "Kwid",
-            price: "₹4,70,000 - ₹6,33,000",
+            price: "₹1,499/Day",
             image: "image/Kwid.jpg",
             specs: {
                 engine: "1.0L Petrol",
                 mileage: "22-25 kmpl",
                 transmission: "Manual/AMT",
-                type: "Hatchback"
+                type: "Hatchback",
+                color:"White"
             }
         },
         {
             name: "Triber",
-            price: "₹6,33,000 - ₹8,96,000",
+            price: "₹1,599/Day",
             image: "image/Triber.jpg",
             specs: {
                 engine: "1.0L Petrol",
                 mileage: "18-20 kmpl",
                 transmission: "Manual/AMT",
-                type: "Compact MPV"
+                type: "Compact MPV",
+                color:"Black"
             }
         }
     ],
     Kia: [
         {
             name: "Sonet",
-            price: "₹8,19,000 - ₹13,69,000",
+            price: "₹2,500/Day",
             image: "image/Sone.jpg",
             specs: {
                 engine: "1.0L Turbo/1.5L Diesel",
                 mileage: "18-21 kmpl",
                 transmission: "Manual/Automatic",
-                type: "Compact SUV"
+                type: "Compact SUV",
+                color:"Red"
             }
         },
         {
             name: "Seltos",
-            price: "₹10,89,000 - ₹19,99,000",
+            price: "₹3,000/Day",
             image: "image/Seltos.jpg",
             specs: {
                 engine: "1.5L Petrol/1.5L Diesel",
                 mileage: "16-20 kmpl",
                 transmission: "Manual/Automatic",
-                type: "Compact SUV"
+                type: "Compact SUV",
+                color:"Green"
             }
         }
     ]
@@ -370,12 +391,7 @@ function showCarDetails(car) {
                             </td>
                             <td class="spec-value">${car.specs.color || 'Black'}</td>
                         </tr>
-                        <tr>
-                            <td class="spec-label">
-                                <i class="fas fa-road"></i> Condition
-                            </td>
-                            <td class="spec-value">${car.specs.condition || 'New'}</td>
-                        </tr>
+                        
                     </tbody>
                 </table>
             </div>

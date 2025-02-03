@@ -3,181 +3,196 @@ const carData = {
     Tata: [
         {
             name: "Tata Nexon EV",
-            price: "₹14,49,000 - ₹19,54,000",
+            price: "₹2,500/Day",
             image: "image/Tata Nexon EV.jpg",
             specs: {
                 battery: "30.2 kWh/40.5 kWh",
                 range: "312 - 453 km (ARAI)",
                 charging: "Fast Charging (80% in 60 min)",
-                type: "SUV"
+                type: "SUV",
+                color: "White"
             }
         },
         {
             name: "Tata Tiago EV",
-            price: "₹8,69,000 - ₹12,04,000",
+            price: "₹2,000/Day",
             image: "image/Tata Tiago EV.jpg",
             specs: {
                 battery: "19.2 kWh/24 kWh",
                 range: "250 - 315 km (ARAI)",
                 charging: "Fast Charging (80% in 57 min)",
-                type: "Hatchback"
+                type: "Hatchback",
+                color: "Yellow"
             }
         },
         {
-            name: "Tata Tigor EV",
-            price: "₹12,49,000 - ₹13,75,000",
+            name: "Tata Tigor EV Turbo",
+            price: "₹2,500/Day",
             image: "image/Tata Tigor EV.jpg",
             specs: {
                 battery: "26 kWh",
                 range: "306 km (ARAI)",
                 charging: "Fast Charging (80% in 65 min)",
-                type: "Sedan"
+                type: "Sedan",
+                color: "Red"
             }
         }
     ],
     Mahindra: [
         {
             name: "Mahindra XUV400",
-            price: "₹15,99,000 - ₹19,39,000",
+            price: "₹3,499/Day",
             image: "image/Mahindra XUV400.jpg",
             specs: {
                 battery: "34.5 kWh/39.4 kWh",
                 range: "375 - 456 km (ARAI)",
                 charging: "Fast Charging (80% in 50 min)",
-                type: "SUV"
+                type: "SUV",
+                color: "Blue"
             }
         },
         {
             name: "Mahindra eVerito",
-            price: "₹10,15,000 - ₹11,50,000",
+            price: "₹2,450/Day",
             image: "image/Mahindra eVerito.jpg",
             specs: {
                 battery: "21.2 kWh",
                 range: "140 km (ARAI)",
                 charging: "Fast Charging (80% in 90 min)",
-                type: "Sedan"
+                type: "Sedan",
+                color: "Green"
             }
         }
     ],
     MG: [
         {
             name: "MG ZS EV",
-            price: "₹22,98,000 - ₹27,00,000",
+            price: "₹2,999/Day",
             image: "image/MG ZS EV.jpg",
             specs: {
                 battery: "50.3 kWh",
                 range: "461 km (ARAI)",
                 charging: "Fast Charging (80% in 60 min)",
-                type: "SUV"
+                type: "SUV",
+                color: "Red"
             }
         }
     ],
     Hyundai: [
         {
             name: "Hyundai Kona Electric",
-            price: "₹23,84,000 - ₹24,03,000",
+            price: "₹3,200/Day",
             image: "image/Hyundai Kona Electric.jpg",
             specs: {
                 battery: "39.2 kWh",
                 range: "452 km (ARAI)",
                 charging: "Fast Charging (80% in 57 min)",
-                type: "SUV"
+                type: "SUV",
+                color: "Gray"
             }
         },
         {
             name: "Hyundai Ioniq 5",
-            price: "₹44,95,000",
+            price: "₹4,500/Day",
             image: "image/Hyundai Ioniq 5.jpg",
             specs: {
                 battery: "72.6 kWh",
                 range: "631 km (ARAI)",
                 charging: "Ultra-Fast Charging (80% in 18 min)",
-                type: "SUV"
+                type: "SUV",
+                color: "Cream White"
             }
         }
     ],
     BYD: [
         {
             name: "BYD Atto 3",
-            price: "₹33,99,000",
+            price: "₹2,000/Day",
             image: "image/BYD Atto 3.jpg",
             specs: {
                 battery: "60.48 kWh",
                 range: "521 km (ARAI)",
                 charging: "Fast Charging (80% in 50 min)",
-                type: "SUV"
+                type: "SUV",
+                color: "Black"
             }
         }
     ],
     Mercedes: [
         {
             name: "Mercedes-Benz EQB",
-            price: "₹74,50,000",
+            price: "₹15,000/Day",
             image: "image/Mercedes-Benz EQB.jpg",
             specs: {
                 battery: "66.5 kWh",
                 range: "423 km (WLTP)",
                 charging: "Fast Charging (80% in 32 min)",
-                type: "Luxury SUV"
+                type: "Luxury SUV",
+                color: "Red"
             }
         },
         {
             name: "Mercedes-Benz EQS",
-            price: "₹1,55,00,000 - ₹2,45,00,000",
+            price: "₹25,000/Day",
             image: "image/Mercedes-Benz EQS.jpg",
             specs: {
                 battery: "107.8 kWh",
                 range: "857 km (WLTP)",
                 charging: "Ultra-Fast Charging (80% in 31 min)",
-                type: "Luxury Sedan"
+                type: "Luxury Sedan",
+                color: "White"
             }
         }
     ],
     BMW: [
         {
             name: "BMW iX",
-            price: "₹1,21,00,000",
+            price: "₹30,000/Day",
             image: "image/BMW iX.jpg",
             specs: {
                 battery: "76.6 kWh",
                 range: "425 km (WLTP)",
                 charging: "Fast Charging (80% in 35 min)",
-                type: "Luxury SUV"
+                type: "Luxury SUV",
+                color: "Blue"
             }
         },
         {
             name: "BMW i4",
-            price: "₹73,90,000",
+            price: "₹20,000/Day",
             image: "image/BMW i4.jpg",
             specs: {
                 battery: "83.9 kWh",
                 range: "590 km (WLTP)",
                 charging: "Fast Charging (80% in 31 min)",
-                type: "Luxury Sedan"
+                type: "Luxury Sedan",
+                color: "White"
             }
         }
     ],
     Audi: [
         {
             name: "Audi e-tron",
-            price: "₹1,01,00,000 - ₹1,19,00,000",
+            price: "₹35,000/Day",
             image: "image/Audi e-tron.jpg",
             specs: {
                 battery: "95 kWh",
                 range: "484 km (WLTP)",
                 charging: "Fast Charging (80% in 30 min)",
-                type: "Luxury SUV"
+                type: "Luxury SUV",
+                color: "Black"
             }
         },
         {
             name: "Audi Q8 e-tron",
-            price: "₹1,14,00,000",
+            price: "₹40,000/Day",
             image: "image/Audi Q8 e-tron.jpg",
             specs: {
                 battery: "106 kWh",
                 range: "600 km (WLTP)",
                 charging: "Fast Charging (80% in 31 min)",
-                type: "Luxury SUV"
+                type: "Luxury SUV",
+                color: "Black"
             }
         }
     ],
@@ -185,35 +200,38 @@ const carData = {
     Kia: [
         {
             name: "Kia EV6",
-            price: "₹60,95,000 - ₹65,95,000",
+            price: "₹25,000/Day",
             image: "image/Kia EV6.jpg",
             specs: {
                 battery: "77.4 kWh",
                 range: "528 km (WLTP)",
                 charging: "Ultra-Fast Charging (80% in 18 min)",
-                type: "Luxury SUV"
+                type: "Luxury SUV",
+                color: "Silver"
             }
         },
         {
             name: "Kia Niro EV",
-            price: "₹45,00,000 (Estimated)",
+            price: "₹30,000/Day",
             image: "image/Kia Niro EV.jpg",
             specs: {
                 battery: "64.8 kWh",
                 range: "463 km (WLTP)",
                 charging: "Fast Charging (80% in 45 min)",
-                type: "SUV"
+                type: "SUV",
+                color: "White"
             }
         },
         {
             name: "Kia Soul EV",
-            price: "₹40,00,000 (Estimated)",
+            price: "₹25,000/Day",
             image: "image/Kia Soul EV.jpg",
             specs: {
                 battery: "64 kWh",
                 range: "452 km (WLTP)",
                 charging: "Fast Charging (80% in 54 min)",
-                type: "Compact SUV"
+                type: "Compact SUV",
+                color: "White"
             }
         }
     ],
@@ -241,15 +259,15 @@ function createCarCard(car) {
                 </div>
                 <div class="car-spec-item">
                     <i class="fas fa-gas-pump"></i>
-                    <span>${car.specs.engine}</span>
+                    <span>${car.specs.charging}</span>
                 </div>
                 <div class="car-spec-item">
                     <i class="fas fa-tachometer-alt"></i>
-                    <span>${car.specs.mileage}</span>
+                    <span>${car.specs.range}</span>
                 </div>
                 <div class="car-spec-item">
                     <i class="fas fa-cog"></i>
-                    <span>${car.specs.transmission}</span>
+                    <span>${car.specs.battery}</span>
                 </div>
             </div>
             <button class="view-details-btn">

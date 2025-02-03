@@ -3,57 +3,62 @@ const carData = {
     Toyota: [
         {
             name: "Fortuner",
-            price: "₹45,00,000",
+            price: "₹8,000/Day",
             image: "image/fortuner.jpg",
             specs: {
                 engine: "2.8L Diesel",
                 mileage: "10-15 kmpl",
                 transmission: "Manual/Auto",
-                type: "SUV"
+                type: "SUV",
+                color: "Black"
             }
         },
         {
             name: "Land Cruiser 300",
-            price: "₹2,10,00,000",
+            price: "₹16,500/Day",
             image: "image/Land Cruiser 300.jpg",
             specs: {
                 engine: "3.3L V6 Diesel",
                 mileage: "10 kmpl",
                 transmission: "Automatic",
-                type: "SUV"
+                type: "SUV",
+                color:"White"
             }
         },
         {
             name: "Urban Cruiser Hyryder",
-            price: "₹15,00,000",
+            price: "₹6,000/Day",
             image: "image/Urban Cruiser Hyryder.jpg",
             specs: {
                 engine: "1.5L Petrol",
                 mileage: "27 kmpl (Hybrid)",
                 transmission: "Manual/Auto",
-                type: "SUV"
+                type: "SUV",
+                color: "Blue"
             }
         },
         {
             name: "Taisor",
-            price: "₹12,00,000",
+            price: "₹5,000/Day",
             image: "image/Taisor.jpg",
             specs: {
                 engine: "1.2L Turbo Petrol",
                 mileage: "18 kmpl",
                 transmission: "Manual/AMT",
-                type: "SUV"
+                type: "SUV",
+                color: "Orange"
             }
         },
         {
             name: "Fortuner Legender",
-            price: "₹50,00,000",
+            price: "₹10,000/Day",
             image: "image/Fortuner Legender.jpg",
             specs: {
                 engine: "2.8L Diesel",
                 mileage: "14 kmpl",
                 transmission: "Automatic",
-                type: "SUV"
+                type: "SUV",
+                color: "White"
             }
         }
     ],
@@ -61,46 +66,50 @@ const carData = {
     Ford: [
         {
             name: "Endeavour",
-            price: "₹36,00,000",
+            price: "₹6,000/Day",
             image: "image/Endeavour.jpg",
             specs: {
                 engine: "2.0L Diesel",
                 mileage: "12 kmpl",
                 transmission: "Automatic",
-                type: "SUV"
+                type: "SUV",
+                color: "Black"
             }
         },
         {
             name: "2025 Explorer",
-            price: "₹40,00,000",
+            price: "₹4,000/Day",
             image: "image/2025 Explorer.jpg",
             specs: {
                 engine: "2.3L Turbo Petrol",
                 mileage: "10 kmpl",
                 transmission: "Automatic",
-                type: "SUV"
+                type: "SUV",
+                color: "Blue"
             }
         },
         {
             name: "EcoSport",
-            price: "₹8,00,000",
+            price: "₹2,000/Day",
             image: "image/EcoSport.jpg",
             specs: {
                 engine: "1.5L Petrol",
                 mileage: "17 kmpl",
                 transmission: "Manual/AMT",
-                type: "SUV"
+                type: "SUV",
+                color: "Orange"
             }
         },
         {
             name: "Escape",
-            price: "₹28,00,000",
+            price: "₹2,500/Day",
             image: "image/Escape.jpg",
             specs: {
                 engine: "2.5L Hybrid",
                 mileage: "18 kmpl",
                 transmission: "Automatic",
-                type: "SUV"
+                type: "SUV",
+                color: "Red"
             }
         }
     ],
@@ -108,35 +117,38 @@ const carData = {
     Kia: [
         {
             name: "Carens",
-            price: "₹11,00,000",
+            price: "₹6,500/Day",
             image: "image/Carens.jpg",
             specs: {
                 engine: "1.5L Diesel/Petrol",
                 mileage: "16-21 kmpl",
                 transmission: "Manual/Auto",
-                type: "SUV"
+                type: "SUV",
+                color: "Black"
             }
         },
         {
             name: "Carnival",
-            price: "₹30,00,000",
+            price: "₹7,000/Day",
             image: "image/Carnival.jpg",
             specs: {
                 engine: "2.2L Diesel",
                 mileage: "13 kmpl",
                 transmission: "Automatic",
-                type: "SUV"
+                type: "SUV",
+                color: "White"
             }
         },
         {
             name: "Syros",
-            price: "₹25,00,000",
+            price: "₹5,500/Day",
             image: "image/Syros.jpg",
             specs: {
                 engine: "1.6L Turbo Petrol",
                 mileage: "18 kmpl",
                 transmission: "Automatic",
-                type: "SUV"
+                type: "SUV",
+                color: "Blue"
             }
         }
     ],
@@ -144,35 +156,38 @@ const carData = {
     Tata: [
         {
             name: "Curvv",
-            price: "₹20,00,000",
+            price: "₹4,000/Day",
             image: "image/Curvv.jpg",
             specs: {
                 engine: "Electric",
                 mileage: "400 km (Range)",
                 transmission: "Automatic",
-                type: "SUV"
+                type: "SUV",
+                color: "Brown"
             }
         },
         {
             name: "Harrier",
-            price: "₹15,00,000",
+            price: "₹2,500/Day",
             image: "image/Harrier.jpg",
             specs: {
                 engine: "2.0L Diesel",
                 mileage: "16 kmpl",
                 transmission: "Manual/Auto",
-                type: "SUV"
+                type: "SUV",
+                color: "Yellow"
             }
         },
         {
             name: "Safari",
-            price: "₹20,00,000",
+            price: "₹2,000/Day",
             image: "image/Safari.jpg",
             specs: {
                 engine: "2.0L Diesel",
                 mileage: "14-16 kmpl",
                 transmission: "Manual/Auto",
-                type: "SUV"
+                type: "SUV",
+                color: "Brown"
             }
         }
     ],
@@ -180,90 +195,99 @@ const carData = {
     Mahindra: [
         {
             name: "XUV-700",
-            price: "₹14,00,000",
+            price: "₹2,800/Day",
             image: "image/XUV-700.jpg",
             specs: {
                 engine: "2.0L Petrol/2.2L Diesel",
                 mileage: "15-20 kmpl",
                 transmission: "Manual/Auto",
-                type: "SUV"
+                type: "SUV",
+                color: "Black"
+
             }
         },
         {
             name: "Scorpio-N",
-            price: "₹13,00,000",
+            price: "₹4,000/Day",
             image: "image/Scorpio-N.jpg",
             specs: {
                 engine: "2.2L Diesel",
                 mileage: "15 kmpl",
                 transmission: "Manual/Auto",
-                type: "SUV"
+                type: "SUV",
+                color: "Dark Green"
             }
         },
         {
             name: "Bolero",
-            price: "₹9,50,000",
+            price: "₹3,000/Day",
             image: "image/Bolero.jpg",
             specs: {
                 engine: "1.5L Diesel",
                 mileage: "16 kmpl",
                 transmission: "Manual",
-                type: "SUV"
+                type: "SUV",
+                color: "White"
             }
         },
         {
             name: "Thar-4by4",
-            price: "₹10,00,000",
+            price: "₹5,400/Day",
             image: "image/Thar-4by4.jpg",
             specs: {
                 engine: "2.0L Petrol/2.2L Diesel",
                 mileage: "10 kmpl",
                 transmission: "Manual/Auto",
-                type: "SUV"
+                type: "SUV",
+                color: "Black"
             }
         },
         {
             name: "Thar ROXX",
-            price: "₹11,50,000",
+            price: "₹6,000/Day",
             image: "image/Thar ROXX.jpg",
             specs: {
                 engine: "2.2L Diesel",
                 mileage: "10 kmpl",
                 transmission: "Manual/Auto",
-                type: "SUV"
+                type: "SUV",
+                color: "Red"
             }
         },
         {
             name: "Scorpio-classic",
-            price: "₹13,00,000",
+            price: "₹3,000/Day",
             image: "image/Scorpio-classic.jpg",
             specs: {
                 engine: "2.2L Diesel",
                 mileage: "15 kmpl",
                 transmission: "Manual",
-                type: "SUV"
+                type: "SUV",
+                color: "Black"
             }
         },
         {
             name: "XUV 3XO",
-            price: "₹8,00,000",
+            price: "₹2,500/Day",
             image: "image/XUV 3XO.jpg",
             specs: {
                 engine: "1.2L Petrol",
                 mileage: "17 kmpl",
                 transmission: "Manual/AMT",
-                type: "SUV"
+                type: "SUV",
+                color: "Yellow"
             }
         },
         {
             name: "Marazzo",
-            price: "₹13,00,000",
+            price: "₹2,000/Day",
             image: "image/Marazzo.jpg",
             specs: {
                 engine: "1.5L Diesel",
                 mileage: "17 kmpl",
                 transmission: "Manual",
-                type: "SUV"
+                type: "SUV",
+                color: "Black"
             }
         }
     ],
@@ -271,57 +295,62 @@ const carData = {
     Audi: [
         {
             name: "Audi Q3",
-            price: "₹44,00,000",
+            price: "₹12,000/Day",
             image: "image/Audi Q3.jpg",
             specs: {
                 engine: "2.0L Petrol",
                 mileage: "14 kmpl",
                 transmission: "Automatic",
-                type: "SUV"
+                type: "SUV",
+                color: "Orange"
             }
         },
         {
             name: "Audi Q5",
-            price: "₹60,00,000",
+            price: "₹13,500/Day",
             image: "image/Audi Q5.jpg",
             specs: {
                 engine: "2.0L Petrol",
                 mileage: "12 kmpl",
                 transmission: "Automatic",
-                type: "SUV"
+                type: "SUV",
+                color: "Gray"
             }
         },
         {
             name: "Audi Q7",
-            price: "₹82,00,000",
+            price: "₹15,000/Day",
             image: "image/Audi Q7.jpg",
             specs: {
                 engine: "3.0L Diesel",
                 mileage: "9 kmpl",
                 transmission: "Automatic",
-                type: "SUV"
+                type: "SUV",
+                color: "Black"
             }
         },
         {
             name: "Audi Q8",
-            price: "₹1,00,00,000",
+            price: "₹18,000/Day",
             image: "image/Audi Q8.jpg",
             specs: {
                 engine: "3.0L Petrol",
                 mileage: "8 kmpl",
                 transmission: "Automatic",
-                type: "SUV"
+                type: "SUV",
+                color:"Brown"
             }
         },
         {
             name: "Audi RS-Q8",
-            price: "₹2,00,00,000",
+            price: "₹19,500/Day",
             image: "image/Audi RS-Q8.jpg",
             specs: {
                 engine: "4.0L Twin-Turbo V8",
                 mileage: "7 kmpl",
                 transmission: "Automatic",
-                type: "SUV"
+                type: "SUV",
+                color: "Yellow"
             }
         }
     ],
@@ -329,46 +358,50 @@ const carData = {
     Mercedes: [
         {
             name: "Mercedes-Benz GLA",
-            price: "₹44,90,000",
+            price: "₹10,000/Day",
             image: "image/Mercedes-Benz GLA.jpg",
             specs: {
                 engine: "1.3L Petrol",
                 mileage: "16 kmpl",
                 transmission: "Automatic",
-                type: "SUV"
+                type: "SUV",
+                color:"White"
             }
         },
         {
             name: "Mercedes-Benz GLS",
-            price: "₹1,21,00,000",
+            price: "₹12,000/Day",
             image: "image/Mercedes-Benz GLS.jpg",
             specs: {
                 engine: "3.0L Diesel",
                 mileage: "9 kmpl",
                 transmission: "Automatic",
-                type: "SUV"
+                type: "SUV",
+                color: "Black"
             }
         },
         {
             name: "Mercedes-Benz Maybach GLS",
-            price: "₹2,70,00,000",
+            price: "₹15,500/Day",
             image: "image/Mercedes-Benz Maybach GLS.jpg",
             specs: {
                 engine: "4.0L V8 Petrol",
                 mileage: "7 kmpl",
                 transmission: "Automatic",
-                type: "SUV"
+                type: "SUV",
+                color: "White"
             }
         },
         {
             name: "Mercedes-Benz GLE",
-            price: "₹88,00,000",
+            price: "₹18,000/Day",
             image: "image/Mercedes-Benz GLE.jpg",
             specs: {
                 engine: "2.0L Diesel",
                 mileage: "10 kmpl",
                 transmission: "Automatic",
-                type: "SUV"
+                type: "SUV",
+                color: "Gray"
             }
         }
     ],
@@ -376,46 +409,50 @@ const carData = {
     MG: [
         {
             name: "MG HECTOR",
-            price: "₹15,00,000",
+            price: "₹4,000/Day",
             image: "image/MG HECTOR.jpg",
             specs: {
                 engine: "1.5L Turbo Petrol/2.0L Diesel",
                 mileage: "14-17 kmpl",
                 transmission: "Manual/Auto",
-                type: "SUV"
+                type: "SUV",
+                color: "Red"
             }
         },
         {
             name: "MG ASTOR",
-            price: "₹10,00,000",
+            price: "₹5,000/Day",
             image: "image/MG ASTOR.jpg",
             specs: {
                 engine: "1.3L Turbo Petrol",
                 mileage: "15 kmpl",
                 transmission: "Automatic",
-                type: "SUV"
+                type: "SUV",
+                color:"Black"
             }
         },
         {
             name: "MG HECTOR PLUS",
-            price: "₹18,00,000",
+            price: "₹7,000/Day",
             image: "image/MG HECTOR PLUS.jpg",
             specs: {
                 engine: "1.5L Turbo Petrol/2.0L Diesel",
                 mileage: "12-16 kmpl",
                 transmission: "Manual/Auto",
-                type: "SUV"
+                type: "SUV",
+                color: "White Gray"
             }
         },
         {
             name: "MG GLOSTER",
-            price: "₹38,00,000",
+            price: "₹8,500/Day",
             image: "image/MG GLOSTER.jpg",
             specs: {
                 engine: "2.0L Twin Turbo Diesel",
                 mileage: "13 kmpl",
                 transmission: "Automatic",
-                type: "SUV"
+                type: "SUV",
+                color: "Brown"
             }
         }
     ],
@@ -546,12 +583,7 @@ function showCarDetails(car) {
                             </td>
                             <td class="spec-value">${car.specs.color || 'Black'}</td>
                         </tr>
-                        <tr>
-                            <td class="spec-label">
-                                <i class="fas fa-road"></i> Condition
-                            </td>
-                            <td class="spec-value">${car.specs.condition || 'New'}</td>
-                        </tr>
+                        
                     </tbody>
                 </table>
             </div>
