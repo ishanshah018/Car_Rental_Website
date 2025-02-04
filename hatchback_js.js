@@ -136,7 +136,7 @@ const carData = {
             }
         }
     ],
-    "Tata": [
+    Tata: [
         {
             name: "Altroz",
             price: "₹1000/Day",
