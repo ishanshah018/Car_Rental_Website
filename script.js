@@ -207,3 +207,7 @@ document.addEventListener("DOMContentLoaded", function () {
         });
     });
 });
+
+function redirectToPage(url) {
+    window.location.href = url;
+}

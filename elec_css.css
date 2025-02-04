@@ -12,7 +12,6 @@ body {
 .car-filters {
     padding: 20px;
     text-align: center;
-    background: linear-gradient(90deg, #1e1e1e, #0a1f44);
     box-shadow: 0 2px 10px rgba(0,0,0,0.1);
     margin-bottom: 30px;
     position: relative;
