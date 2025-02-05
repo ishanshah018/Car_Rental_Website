@@ -387,7 +387,7 @@ function showCarDetails(car) {
     
     // Add event listener for book now button
     modalDetails.querySelector('.book-now-btn').addEventListener('click', () => {
-        alert('Thank you for your interest! Our team will contact you shortly for booking.');
+        window.location.href = 'form.html';
     });
     
     // Show modal with animation

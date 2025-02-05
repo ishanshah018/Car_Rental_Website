@@ -1,0 +1,171 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Arial', sans-serif;
+    background: linear-gradient(135deg, #ff0000 0%, #ffffff 100%);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    padding: 20px;
+}
+
+.container {
+    background-color: white;
+    border-radius: 15px;
+    box-shadow: 0 10px 25px rgba(0, 0, 0, 0.1);
+    width: 100%;
+    max-width: 450px;
+    padding: 30px;
+}
+
+.logo {
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.logo h1 {
+    color: #ff0000;
+    font-size: 2.5em;
+    margin-bottom: 5px;
+}
+
+.logo p {
+    color: #666;
+    font-size: 0.9em;
+}
+
+.form h2 {
+    text-align: center;
+    color: #333;
+    margin-bottom: 25px;
+    position: relative;
+}
+
+.form h2::after {
+    content: '';
+    position: absolute;
+    bottom: -10px;
+    left: 50%;
+    transform: translateX(-50%);
+    width: 50px;
+    height: 3px;
+    background-color: #ff0000;
+}
+
+.form-group {
+    margin-bottom: 20px;
+}
+
+.form-group label {
+    display: block;
+    margin-bottom: 8px;
+    color: #333;
+    font-weight: bold;
+}
+
+.form-group input {
+    width: 100%;
+    padding: 12px;
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    transition: border-color 0.3s ease;
+}
+
+.form-group input:focus {
+    outline: none;
+    border-color: #ff0000;
+}
+
+.error {
+    color: #ff0000;
+    font-size: 0.8em;
+    height: 15px;
+    margin-top: 5px;
+}
+
+.submit-btn {
+    width: 100%;
+    background-color: #ff0000;
+    color: white;
+    border: none;
+    padding: 15px;
+    border-radius: 8px;
+    cursor: pointer;
+    font-weight: bold;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    transition: background-color 0.3s ease;
+}
+
+.submit-btn:hover {
+    background-color: #cc0000;
+}
+
+/* SweetAlert Custom Styling */
+.my-custom-popup-class {
+    background-color: #f4f4f4;
+    border-radius: 15px;
+}
+
+.my-custom-popup-class .swal2-title {
+    color: #ff0000;
+}
+
+.my-custom-popup-class .swal2-content {
+    text-align: left;
+}
+
+/* Booking Confirmation Styles */
+.booking-details-container {
+    text-align: left !important;
+}
+
+.booking-confirmation {
+    background-color: #f9f9f9;
+    border-radius: 10px;
+    padding: 15px;
+    margin-bottom: 15px;
+    border: 1px solid #e0e0e0;
+}
+
+.booking-detail {
+    display: flex;
+    margin-bottom: 10px;
+    align-items: center;
+}
+
+.detail-label {
+    font-weight: bold;
+    color: #333;
+    width: 130px;
+    display: inline-block;
+}
+
+.detail-value {
+    color: #555;
+    flex-grow: 1;
+}
+
+.status-confirmed {
+    color: #28a745;
+    font-weight: bold;
+}
+
+.confirmation-message {
+    font-style: italic;
+    color: #666;
+    text-align: center;
+    margin-top: 15px;
+}
+
+@media (max-width: 480px) {
+    .container {
+        padding: 20px;
+        margin: 0 10px;
+    }
+}

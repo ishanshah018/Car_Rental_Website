@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>AUTOLUXE - Customer Registration</title>
+    <link rel="stylesheet" href="form_style.css">
+    <!-- Add SweetAlert library -->
+    <script src="https://cdn.jsdelivr.net/npm/sweetalert2@11"></script>
+</head>
+<body>
+    <div class="container">
+        <form id="registrationForm" class="form">
+            <div class="logo">
+                <h1>AUTOLUXE</h1>
+                <p>Car Rental System</p>
+            </div>
+            
+            <h2>Customer Registration</h2>
+            
+            <div class="form-group">
+                <label for="name">Full Name</label>
+                <input type="text" id="name" name="name" placeholder="Enter your full name" required>
+                <span class="error" id="nameError"></span>
+            </div>
+            
+            <div class="form-group">
+                <label for="mobile">Mobile Number</label>
+                <input type="tel" id="mobile" name="mobile" placeholder="+91 " required>
+                <span class="error" id="mobileError"></span>
+            </div>
+            
+            <div class="form-group">
+                <label for="email">Email Address</label>
+                <input type="email" id="email" name="email" placeholder="Enter your email" required>
+                <span class="error" id="emailError"></span>
+            </div>
+            
+            <button type="submit" class="submit-btn">Register & Book</button>
+        </form>
+    </div>
+    <script src="form_script.js"></script>
+</body>
+</html>
