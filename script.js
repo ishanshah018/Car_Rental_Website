@@ -105,7 +105,6 @@ var swiper = new Swiper('.Blog_Swiper', {
     }
 });
 
-
 document.getElementById("searchButton").addEventListener("click", function() {
     const vehicleType = document.getElementById("vehicleType").value;
     const pickupLocation = document.getElementById("pickupLocation").value;
@@ -131,8 +130,9 @@ document.getElementById("searchButton").addEventListener("click", function() {
         return;
     }
 
-    const now = new Date(); // Current date and time
-    console.log(now);
+    const now = new Date();
+    // Set the time to 00:00:00 for comparison
+    now.setHours(0, 0, 0, 0);
 
     // Convert pickupDate and returnDate to Date objects
     const pickupDateObj = new Date(pickupDate);
@@ -159,7 +159,6 @@ document.getElementById("searchButton").addEventListener("click", function() {
     // If all fields are valid, redirect to the selected page
     window.location.href = vehicleType;
 });
-
 
 document.addEventListener("DOMContentLoaded", function () {
     const readMoreBtn = document.getElementById("openPopup"); // Select "Read More" button
