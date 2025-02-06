@@ -1300,6 +1300,17 @@ footer {
     color: var(--color-primary);
 }
 
+.Footer_col a {
+    color: #fff; /* Set your desired color */
+    text-decoration: none; /* Remove underline */
+}
+
+.Footer_col a:hover {
+    color: #f00; /* Change color on hover */
+    text-decoration: underline; /* Add underline on hover if needed */
+}
+
+
 .Footer_Right_bottom {
     width: 100%;
     border-top: 1px solid var(--color-light);
