@@ -1,3 +1,23 @@
+
+// BACK to Top Button
+
+const header = document.querySelector("[data-header]");
+const backTopBtn = document.querySelector("[data-back-top-btn]");
+
+window.addEventListener("scroll", function () {
+  if (window.scrollY >= 100) {
+    if (header) header.classList.add("active");
+    if (backTopBtn) backTopBtn.classList.add("active");
+  } else {
+    if (header) header.classList.remove("active");
+    if (backTopBtn) backTopBtn.classList.remove("active");
+  }
+});
+
+
+
+
+
 const menu = document.querySelector('.menu_list');
 const toggle = document.getElementById('toggle');
 
