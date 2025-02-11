@@ -226,3 +226,26 @@ document.addEventListener("DOMContentLoaded", function () {
         });
     });
 });
+
+// Add this to your existing index.js or create a new one
+document.addEventListener('DOMContentLoaded', function() {
+    const searchButton = document.getElementById('searchButton');
+    const vehicleTypeSelect = document.getElementById('vehicleType');
+    const pickupDateInput = document.getElementById('pickupDate');
+    const returnDateInput = document.getElementById('returnDate');
+    const pickupLocationSelect = document.getElementById('pickupLocation');
+
+    searchButton.addEventListener('click', function(e) {
+        e.preventDefault();
+        
+        // Store booking details in sessionStorage
+        sessionStorage.setItem('pickupDate', pickupDateInput.value);
+        sessionStorage.setItem('returnDate', returnDateInput.value);
+        sessionStorage.setItem('pickupLocation', pickupLocationSelect.value);
+        
+        // Redirect to the selected vehicle type page
+        if (vehicleTypeSelect.value) {
+            window.location.href = vehicleTypeSelect.value;
+        }
+    });
+});

@@ -669,11 +669,11 @@ function showCarDetails(car) {
             </button>
         </div>
     `;
-    
+
     // Add event listener for book now button
     modalDetails.querySelector('.book-now-btn').addEventListener('click', () => {
-        window.location.href = 'form.html';
-    });
+        window.location.href = 'booking.html';
+    });  
     
     // Show modal with animation
     modal.style.display = 'block';
@@ -690,6 +690,28 @@ function showCarDetails(car) {
             closeModal();
         }
     });
+
+    // Modify the book now button click handler
+    modalDetails.querySelector('.book-now-btn').addEventListener('click', () => {
+        // Store car details in sessionStorage
+        sessionStorage.setItem('selectedCar', JSON.stringify({
+            name: car.name,
+            price: car.price,
+            specs: car.specs
+        }));
+        
+        // Check if user is logged in
+        if (sessionStorage.getItem('isLoggedIn')) {
+            window.location.href = 'booking.html';
+        } else {
+            // Show login/signup options
+            const loginSignupOptions = document.getElementById('loginSignupOptions');
+            loginSignupOptions.classList.remove('hidden');
+        }
+    });
+
+
+
 }
 
 function closeModal() {
@@ -709,6 +731,8 @@ function closeModal() {
         modalContent.classList.remove('modal-content-hide');
     }, 300);
 }
+
+
 
 // Load all cars initially when the page loads
 window.addEventListener('DOMContentLoaded', () => {
@@ -781,3 +805,5 @@ document.head.appendChild(style);
 document.addEventListener('DOMContentLoaded', () => {
     initializePreviewSlider();
 });
+
+

@@ -299,6 +299,9 @@ select option {
     left: 100%;
 }
 
+
+
+
 .featured-car {
     position: relative;
     width: 100%;
@@ -721,6 +724,34 @@ select option {
     left: 100%;
 }
 
+/* Hides Login/Signup options initially */
+.hidden {
+    display: none;
+    text-align: center;
+    margin-top: 15px;
+}
+
+/* Button Styles */
+.custom-btn {
+    margin: 5px;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 16px;
+}
+
+.custom-btn:first-of-type {
+    background: #007bff;
+    color: white;
+}
+
+.custom-btn:last-of-type {
+    background: #28a745;
+    color: white;
+}
+
+
 /* Responsive design for modal */
 @media (max-width: 768px) {
     .modal-body {
@@ -732,6 +763,8 @@ select option {
         height: 300px;
     }
 }
+
+
 
 /* Responsive Design */
 @media (max-width: 1024px) {

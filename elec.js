@@ -1,270 +1,242 @@
 // Car data
 const carData = {
-    Maruti: [
+    Tata: [
         {
-            name: "Baleno",
+            name: "Tata Nexon EV",
             price: "₹2,500/Day",
-            image: "image/Baleno.jpg",
+            image: "image/Tata Nexon EV.jpg",
             specs: {
-                engine: "1.2L DualJet Petrol",
-                mileage: "22-24 kmpl",
-                transmission: "Manual/AMT",
-                type: "Hatchback",
-                color:"Blue"
+                battery: "30.2 kWh/40.5 kWh",
+                range: "312 - 453 km (ARAI)",
+                charging: "Fast Charging (80% in 60 min)",
+                type: "SUV",
+                color: "White"
             }
         },
         {
-            name: "WagonR",
-            price: "₹1,500/Day",
-            image: "image/WagonR.jpg",
+            name: "Tata Tiago EV",
+            price: "₹2,000/Day",
+            image: "image/Tata Tiago EV.jpg",
             specs: {
-                engine: "1.0L/1.2L Petrol",
-                mileage: "21-25 kmpl",
-                transmission: "Manual/AMT",
+                battery: "19.2 kWh/24 kWh",
+                range: "250 - 315 km (ARAI)",
+                charging: "Fast Charging (80% in 57 min)",
                 type: "Hatchback",
-                color:"Red"
+                color: "Yellow"
             }
         },
         {
-            name: "Celerio",
-            price: "₹1,000/Day",
-            image: "image/Celerio.jpg",
+            name: "Tata Tigor EV Turbo",
+            price: "₹2,500/Day",
+            image: "image/Tata Tigor EV.jpg",
             specs: {
-                engine: "1.0L Petrol",
-                mileage: "24-26 kmpl",
-                transmission: "Manual/AMT",
-                type: "Hatchback",
-                color:"Blue"
+                battery: "26 kWh",
+                range: "306 km (ARAI)",
+                charging: "Fast Charging (80% in 65 min)",
+                type: "Sedan",
+                color: "Red"
+            }
+        }
+    ],
+    Mahindra: [
+        {
+            name: "Mahindra XUV400",
+            price: "₹3,499/Day",
+            image: "image/Mahindra XUV400.jpg",
+            specs: {
+                battery: "34.5 kWh/39.4 kWh",
+                range: "375 - 456 km (ARAI)",
+                charging: "Fast Charging (80% in 50 min)",
+                type: "SUV",
+                color: "Blue"
             }
         },
         {
-            name: "Alto K10",
-            price: "₹900/Day",
-            image: "image/Alto K10.jpg",
+            name: "Mahindra eVerito",
+            price: "₹2,450/Day",
+            image: "image/Mahindra eVerito.jpg",
             specs: {
-                engine: "1.0L Petrol",
-                mileage: "22-25 kmpl",
-                transmission: "Manual/AMT",
-                type: "Hatchback",
-                color:"Red"
+                battery: "21.2 kWh",
+                range: "140 km (ARAI)",
+                charging: "Fast Charging (80% in 90 min)",
+                type: "Sedan",
+                color: "Green"
             }
-        },
+        }
+    ],
+    MG: [
         {
-            name: "Ignis",
-            price: "₹1,950/Day",
-            image: "image/Ignis.jpg",
+            name: "MG ZS EV",
+            price: "₹2,999/Day",
+            image: "image/MG ZS EV.jpg",
             specs: {
-                engine: "1.2L Petrol",
-                mileage: "20-22 kmpl",
-                transmission: "Manual/AMT",
-                type: "Hatchback",
-                color:"Blue"
+                battery: "50.3 kWh",
+                range: "461 km (ARAI)",
+                charging: "Fast Charging (80% in 60 min)",
+                type: "SUV",
+                color: "Red"
             }
         }
     ],
     Hyundai: [
         {
-            name: "i20",
-            price: "₹2,700/Day",
-            image: "image/i20.jpg",
+            name: "Hyundai Kona Electric",
+            price: "₹3,200/Day",
+            image: "image/Hyundai Kona Electric.jpg",
             specs: {
-                engine: "1.0L Turbo/1.2L Petrol",
-                mileage: "20-22 kmpl",
-                transmission: "Manual/Automatic",
-                type: "Hatchback",
-                color:"Red"
+                battery: "39.2 kWh",
+                range: "452 km (ARAI)",
+                charging: "Fast Charging (80% in 57 min)",
+                type: "SUV",
+                color: "Gray"
             }
         },
         {
-            name: "Grand i10 Nios",
-            price: "₹2,200/Day",
-            image: "image/Grand i10 Nios.jpg",
-            specs: {
-                engine: "1.2L Petrol/1.2L Diesel",
-                mileage: "18-25 kmpl",
-                transmission: "Manual/AMT",
-                type: "Hatchback",
-                color:"Red"
-            }
-        },
-        {
-            name: "Santro",
-            price: "₹1,800/Day",
-            image: "image/Santro.jpg",
-            specs: {
-                engine: "1.1L Petrol",
-                mileage: "20-21 kmpl",
-                transmission: "Manual/AMT",
-                type: "Hatchback",
-                color:"White"
-            }
-        },
-        {
-            name: "Eon",
-            price: "₹1,500/Day",
-            image: "image/Eon.jpg",
-            specs: {
-                engine: "0.8L Petrol",
-                mileage: "20-21 kmpl",
-                transmission: "Manual",
-                type: "Hatchback",
-                color:"Red"
-            }
-        },
-        {
-            name: "Creta",
-            price: "₹3,500/Day",
-            image: "image/Creta.jpg",
-            specs: {
-                engine: "1.5L Petrol/1.5L Diesel",
-                mileage: "16-21 kmpl",
-                transmission: "Manual/Automatic",
-                type: "Compact SUV",
-                color:"Black"
-            }
-        },
-        {
-            name: "Alcazar",
+            name: "Hyundai Ioniq 5",
             price: "₹4,500/Day",
-            image: "image/Alcazar.jpg",
+            image: "image/Hyundai Ioniq 5.jpg",
             specs: {
-                engine: "1.5L Petrol/1.5L Diesel",
-                mileage: "15-20 kmpl",
-                transmission: "Manual/Automatic",
-                type: "Compact SUV",
-                color:"Green"
+                battery: "72.6 kWh",
+                range: "631 km (ARAI)",
+                charging: "Ultra-Fast Charging (80% in 18 min)",
+                type: "SUV",
+                color: "Cream White"
             }
         }
     ],
-    Tata: [
+    BYD: [
         {
-            name: "Altroz",
-            price: "₹1000/Day",
-            image: "image/Altroz1.jpg",
+            name: "BYD Atto 3",
+            price: "₹2,000/Day",
+            image: "image/BYD Atto 3.jpg",
             specs: {
-                engine: "1.2L Petrol/1.5L Diesel",
-                mileage: "18-23 kmpl",
-                transmission: "Manual/AMT",
-                type: "Hatchback",
-                color:"Blue"
-            }
-        },
-        {
-            name: "Tiago",
-            price: "₹900/Day",
-            image: "image/Tiago.1jpg",
-            specs: {
-                engine: "1.2L Petrol",
-                mileage: "20-23 kmpl",
-                transmission: "Manual/AMT",
-                type: "Hatchback",
-                color:"Cyan"
-            }
-        },
-        {
-            name: "Punch",
-            price: "₹1,200/Day",
-            image: "image/Punch.jpg",
-            specs: {
-                engine: "1.2L Petrol",
-                mileage: "18-20 kmpl",
-                transmission: "Manual/AMT",
-                type: "Micro SUV",
-                color:"Blue"
+                battery: "60.48 kWh",
+                range: "521 km (ARAI)",
+                charging: "Fast Charging (80% in 50 min)",
+                type: "SUV",
+                color: "Black"
             }
         }
     ],
-    Honda: [
+    Mercedes: [
         {
-            name: "Jazz",
-            price: "₹800/Day",
-            image: "image/Jazz.jpg",
+            name: "Mercedes-Benz EQB",
+            price: "₹15,000/Day",
+            image: "image/Mercedes-Benz EQB.jpg",
             specs: {
-                engine: "1.2L Petrol",
-                mileage: "16-18 kmpl",
-                transmission: "Manual/AMT",
-                type: "Hatchback",
-                color:"Gray"
+                battery: "66.5 kWh",
+                range: "423 km (WLTP)",
+                charging: "Fast Charging (80% in 32 min)",
+                type: "Luxury SUV",
+                color: "Red"
             }
         },
         {
-            name: "WR-V",
-            price: "₹1,200/Day",
-            image: "image/WR-V.jpg",
+            name: "Mercedes-Benz EQS",
+            price: "₹25,000/Day",
+            image: "image/Mercedes-Benz EQS.jpg",
             specs: {
-                engine: "1.2L Petrol/1.5L Diesel",
-                mileage: "16-22 kmpl",
-                transmission: "Manual",
-                type: "Compact SUV",
-                color:"Red"
-            }
-        },
-        {
-            name: "Brio",
-            price: "₹1,000/Day",
-            image: "image/Brio.jpg",
-            specs: {
-                engine: "1.2L Petrol",
-                mileage: "16-19 kmpl",
-                transmission: "Manual/AMT",
-                type: "Hatchback",
-                color:"Yellow"
+                battery: "107.8 kWh",
+                range: "857 km (WLTP)",
+                charging: "Ultra-Fast Charging (80% in 31 min)",
+                type: "Luxury Sedan",
+                color: "White"
             }
         }
     ],
-    Renault: [
+    BMW: [
         {
-            name: "Kwid",
-            price: "₹1,499/Day",
-            image: "image/Kwid.jpg",
+            name: "BMW iX",
+            price: "₹30,000/Day",
+            image: "image/BMW iX.jpg",
             specs: {
-                engine: "1.0L Petrol",
-                mileage: "22-25 kmpl",
-                transmission: "Manual/AMT",
-                type: "Hatchback",
-                color:"White"
+                battery: "76.6 kWh",
+                range: "425 km (WLTP)",
+                charging: "Fast Charging (80% in 35 min)",
+                type: "Luxury SUV",
+                color: "Blue"
             }
         },
         {
-            name: "Triber",
-            price: "₹1,599/Day",
-            image: "image/Triber.jpg",
+            name: "BMW i4",
+            price: "₹20,000/Day",
+            image: "image/BMW i4.jpg",
             specs: {
-                engine: "1.0L Petrol",
-                mileage: "18-20 kmpl",
-                transmission: "Manual/AMT",
-                type: "Compact MPV",
-                color:"Black"
+                battery: "83.9 kWh",
+                range: "590 km (WLTP)",
+                charging: "Fast Charging (80% in 31 min)",
+                type: "Luxury Sedan",
+                color: "White"
             }
         }
     ],
+    Audi: [
+        {
+            name: "Audi e-tron",
+            price: "₹35,000/Day",
+            image: "image/Audi e-tron.jpg",
+            specs: {
+                battery: "95 kWh",
+                range: "484 km (WLTP)",
+                charging: "Fast Charging (80% in 30 min)",
+                type: "Luxury SUV",
+                color: "Black"
+            }
+        },
+        {
+            name: "Audi Q8 e-tron",
+            price: "₹40,000/Day",
+            image: "image/Audi Q8 e-tron.jpg",
+            specs: {
+                battery: "106 kWh",
+                range: "600 km (WLTP)",
+                charging: "Fast Charging (80% in 31 min)",
+                type: "Luxury SUV",
+                color: "Black"
+            }
+        }
+    ],
+
     Kia: [
         {
-            name: "Sonet",
-            price: "₹2,500/Day",
-            image: "image/Sone.jpg",
+            name: "Kia EV6",
+            price: "₹25,000/Day",
+            image: "image/Kia EV6.jpg",
             specs: {
-                engine: "1.0L Turbo/1.5L Diesel",
-                mileage: "18-21 kmpl",
-                transmission: "Manual/Automatic",
-                type: "Compact SUV",
-                color:"Red"
+                battery: "77.4 kWh",
+                range: "528 km (WLTP)",
+                charging: "Ultra-Fast Charging (80% in 18 min)",
+                type: "Luxury SUV",
+                color: "Silver"
             }
         },
         {
-            name: "Seltos",
-            price: "₹3,000/Day",
-            image: "image/Seltos.jpg",
+            name: "Kia Niro EV",
+            price: "₹30,000/Day",
+            image: "image/Kia Niro EV.jpg",
             specs: {
-                engine: "1.5L Petrol/1.5L Diesel",
-                mileage: "16-20 kmpl",
-                transmission: "Manual/Automatic",
+                battery: "64.8 kWh",
+                range: "463 km (WLTP)",
+                charging: "Fast Charging (80% in 45 min)",
+                type: "SUV",
+                color: "White"
+            }
+        },
+        {
+            name: "Kia Soul EV",
+            price: "₹25,000/Day",
+            image: "image/Kia Soul EV.jpg",
+            specs: {
+                battery: "64 kWh",
+                range: "452 km (WLTP)",
+                charging: "Fast Charging (80% in 54 min)",
                 type: "Compact SUV",
-                color:"Green"
+                color: "White"
             }
         }
-    ]
+    ],
 };
+
 
 // Function to create car cards
 function createCarCard(car) {
@@ -287,15 +259,15 @@ function createCarCard(car) {
                 </div>
                 <div class="car-spec-item">
                     <i class="fas fa-gas-pump"></i>
-                    <span>${car.specs.engine}</span>
+                    <span>${car.specs.charging}</span>
                 </div>
                 <div class="car-spec-item">
                     <i class="fas fa-tachometer-alt"></i>
-                    <span>${car.specs.mileage}</span>
+                    <span>${car.specs.range}</span>
                 </div>
                 <div class="car-spec-item">
                     <i class="fas fa-cog"></i>
-                    <span>${car.specs.transmission}</span>
+                    <span>${car.specs.battery}</span>
                 </div>
             </div>
             <button class="view-details-btn">
@@ -391,7 +363,12 @@ function showCarDetails(car) {
                             </td>
                             <td class="spec-value">${car.specs.color || 'Black'}</td>
                         </tr>
-                        
+                        <tr>
+                            <td class="spec-label">
+                                <i class="fas fa-road"></i> Condition
+                            </td>
+                            <td class="spec-value">${car.specs.condition || 'New'}</td>
+                        </tr>
                     </tbody>
                 </table>
             </div>
@@ -410,7 +387,7 @@ function showCarDetails(car) {
     
     // Add event listener for book now button
     modalDetails.querySelector('.book-now-btn').addEventListener('click', () => {
-        window.location.href = 'form.html';
+        window.location.href = 'booking.html';
     });
     
     // Show modal with animation
@@ -428,6 +405,26 @@ function showCarDetails(car) {
             closeModal();
         }
     });
+
+    // Modify the book now button click handler
+    modalDetails.querySelector('.book-now-btn').addEventListener('click', () => {
+        // Store car details in sessionStorage
+        sessionStorage.setItem('selectedCar', JSON.stringify({
+            name: car.name,
+            price: car.price,
+            specs: car.specs
+        }));
+        
+        // Check if user is logged in
+        if (sessionStorage.getItem('isLoggedIn')) {
+            window.location.href = 'booking.html';
+        } else {
+            // Show login/signup options
+            const loginSignupOptions = document.getElementById('loginSignupOptions');
+            loginSignupOptions.classList.remove('hidden');
+        }
+    });
+
 }
 
 function closeModal() {

@@ -3,8 +3,8 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>SUV CARS</title>
-    <link rel="stylesheet" href="suv_css.css">
+    <title>SEDAN CARS</title>
+    <link rel="stylesheet" href="sedan.css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
 </head>
 <body style="background: linear-gradient(90deg, #1e1e1e, #0a1f44);">
@@ -13,14 +13,14 @@
         <div class="select-wrapper">
             <select id="companyFilter" class="custom-select">
                 <option value="all">All Companies</option>
-                <option value="Toyota">Toyota</option>
-                <option value="Ford">Ford</option>
-                <option value="Kia">Kia</option>
-                <option value="Tata">Tata</option>
-                <option value="Mahindra">Mahindra</option>
+                <option value="MarutiSuzuki">Maruti Suzuki</option>
+                <option value="Hyundai">Hyundai</option>
+                <option value="Honda">Honda</option>
+                <option value="Volkswagen">Volkswagen</option>
+                <option value="Skoda">Skoda</option>
                 <option value="Audi">Audi</option>
                 <option value="Mercedes">Mercedes-Benz</option>
-                <option value="MG">MG</option>
+                <option value="BMW">BMW</option>
             </select>
         </div>
     </div>
@@ -33,13 +33,22 @@
     <!-- Car Details Modal -->
     <div id="carModal" class="car-modal">
         <div class="modal-content">
-            <!-- <span class="close-modal">&times;</span> -->
+            
             <div class="car-details">
                 <!-- Car details will be dynamically added here -->
             </div>
         </div>
     </div>
 
-    <script src="suv_js.js"></script>
+
+    <!-- Hidden Login/Signup Options (Will Appear When Clicked) -->
+    <div id="loginSignupOptions" class="hidden">
+        <h3>Continue as:</h3>
+        <button onclick="redirectToLogin()" class="custom-btn">Login</button>
+        <button onclick="redirectToSignup()" class="custom-btn">Sign Up</button>
+    </div>
+
+
+    <script src="sedan.js"></script>
 </body>
 </html>
