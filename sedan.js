@@ -3,7 +3,7 @@ const carData = {
     MarutiSuzuki: [
         {
             name: "Ciaz",
-            price: "₹3,000/day",
+            price: "₹2,000/day",
             image: "image/ciaz.jpg",
             specs: {
                 engine: "1.5L VVT",
@@ -14,7 +14,7 @@ const carData = {
         },
         {
             name: "Swift Dzire",
-            price: "₹2,500/day",
+            price: "₹1,500/day",
             image: "image/swift.jpg",
             specs: {
                 engine: "1.2L VVT",
@@ -28,7 +28,7 @@ const carData = {
     Hyundai: [
         {
             name: "Verna",
-            price: "₹9.20 - 15.70 Lakh",
+            price: "₹3,000/day",
             image: "image/verna.jpg",
             specs: {
                 engine: "1.5L Petrol/Diesel",
@@ -39,7 +39,7 @@ const carData = {
         },
         {
             name: "Aura",
-            price: "₹5.98 - 8.78 Lakh",
+            price: "₹2,500/day",
             image: "image/aura.jpg",
             specs: {
                 engine: "1.2L Kappa/1.5L U2",
@@ -50,7 +50,7 @@ const carData = {
         },
         {
             name: "Elantra",
-            price: "₹13.99 - 18.59 Lakh",
+            price: "₹1,500/day",
             image: "image/elantra.jpg",
             specs: {
                 engine: "2.0L Petrol",
@@ -61,7 +61,7 @@ const carData = {
         },
         {
             name: "Verna Turbo",
-            price: "₹10.75 - 14.25 Lakh",
+            price: "₹3,500/day",
             image: "image/vernaTurbo.jpg",
             specs: {
                 engine: "1.0L Turbo GDi",
@@ -74,7 +74,7 @@ const carData = {
     Honda: [
         {
             name: "City",
-            price: "₹11.57 - 15.52 Lakh",
+            price: "₹2,299/day",
             image: "image/city.jpg",
             specs: {
                 engine: "1.5L i-VTEC",
@@ -85,7 +85,7 @@ const carData = {
         },
         {
             name: "Amaze",
-            price: "₹7.16 - 9.92 Lakh",
+            price: "₹1,999/day",
             image: "image/amaze.jpg",
             specs: {
                 engine: "1.2L i-VTEC",
@@ -96,7 +96,7 @@ const carData = {
         },
         {
             name: "Accord Hybrid",
-            price: "₹37.18 - 39.98 Lakh",
+            price: "₹3,000/day",
             image: "image/accordHybrid.jpg",
             specs: {
                 engine: "2.0L i-MMD",
@@ -107,7 +107,7 @@ const carData = {
         },
         {
             name: "Civic",
-            price: "₹17.93 - 23.73 Lakh",
+            price: "₹3,500/day",
             image: "image/civic.jpg",
             specs: {
                 engine: "1.8L i-VTEC",
@@ -121,122 +121,112 @@ const carData = {
     Volkswagen: [
         {
             name: "Volkswagen Virtus",
-            price: "₹11.00 - 17.60 Lakh",
+            price: "₹3,000/day",
             image: "image/VolkswagenVirtus.jpg",
             specs: {
                 engine: "1.0L TSI",
                 mileage: "18.5 kmpl",
                 transmission: "Manual/DSG",
-                type: "Sedan",
-                features: ["Digital Cockpit", "Panoramic Sunroof", "Adaptive Cruise Control"]
+                type: "Sedan"
             }
         },
         {
             name: "Volkswagen Passat",
-            price: "₹30.00 - 38.00 Lakh",
+            price: "₹3,499/day",
             image: "image/VolkswagenPassat.jpg",
             specs: {
                 engine: "2.0L TDI",
                 mileage: "18 kmpl",
                 transmission: "DSG Automatic",
-                type: "Sedan",
-                features: ["Nappa Leather Seats", "360-degree Camera", "Autonomous Driving Assistance"]
+                type: "Sedan"
             }
         },
         {
             name: "Volkswagen Ameo",
-            price: "₹6.00 - 9.50 Lakh",
+            price: "₹2,500/day",
             image: "image/VolkswagenAmeo.jpg",
             specs: {
                 engine: "1.2L TSI",
                 mileage: "17.83 kmpl",
                 transmission: "Manual/Automatic",
-                type: "Sedan",
-                features: ["Touchscreen Infotainment", "Rear Parking Sensors", "LED Headlights"]
+                type: "Sedan"
             }
         },
         {
             name: "Volkswagen Jetta",
-            price: "₹17.00 - 22.00 Lakh",
+            price: "₹5,000/day",
             image: "image/VolkswagenJetta.jpg",
             specs: {
                 engine: "2.0L TDI",
                 mileage: "16.6 kmpl",
                 transmission: "Manual/DSG",
-                type: "Sedan",
-                features: ["Dual-zone Climate Control", "Cruise Control", "6.5-inch Display"]
+                type: "Sedan"
             }
         },
         {
             name: "Volkswagen Vento",
-            price: "₹8.00 - 14.00 Lakh",
+            price: "₹3,500/day",
             image: "image/VolkswagenVento.jpg",
             specs: {
                 engine: "1.6L MPI",
                 mileage: "16.93 kmpl",
                 transmission: "Manual/Automatic",
-                type: "Sedan",
-                features: ["Leather Upholstery", "Touchscreen Display", "Parking Sensors"]
+                type: "Sedan"
             }
         },
         {
             name: "Volkswagen Polo Sedan",
-            price: "₹7.20 - 10.50 Lakh",
+            price: "₹5,999/day",
             image: "image/VolkswagenPoloSedan.jpg",
             specs: {
                 engine: "1.0L MPI",
                 mileage: "19.5 kmpl",
                 transmission: "Manual",
-                type: "Sedan",
-                features: ["Bluetooth Connectivity", "Automatic Headlights", "Rear Armrest"]
+                type: "Sedan"
             }
         },
         {
             name: "Volkswagen Touareg",
-            price: "₹70.00 - 85.00 Lakh",
+            price: "₹6,299/day",
             image: "image/VolkswagenTouareg.jpg",
             specs: {
                 engine: "3.0L V6 TDI",
                 mileage: "12.5 kmpl",
                 transmission: "8-Speed Automatic",
-                type: "Sedan",
-                features: ["LED Matrix Lights", "Heated Seats", "Surround Sound System"]
+                type: "Sedan"
             }
         },
         {
             name: "Volkswagen Santana",
-            price: "₹14.50 - 19.00 Lakh",
+            price: "₹2,000/day",
             image: "image/VolkswagenSantana.jpg",
             specs: {
                 engine: "1.4L TSI",
                 mileage: "14.6 kmpl",
                 transmission: "Manual/DSG",
-                type: "Sedan",
-                features: ["Advanced Infotainment", "Sunroof", "Lane Keep Assist"]
+                type: "Sedan"
             }
         },
         {
             name: "Volkswagen Tiguan",
-            price: "₹28.00 - 35.00 Lakh",
+            price: "₹4,500/day",
             image: "image/VolkswagenTiguan.jpg",
             specs: {
                 engine: "2.0L TDI",
                 mileage: "16.0 kmpl",
                 transmission: "DSG Automatic",
-                type: "Sedan",
-                features: ["Panoramic Sunroof", "Power Steering", "Voice Control"]
+                type: "Sedan"
             }
         },
         {
             name: "Volkswagen Bora",
-            price: "₹22.00 - 26.00 Lakh",
+            price: "₹3,500/day",
             image: "image/VolkswagenBora.jpg",
             specs: {
                 engine: "1.9L TDI",
                 mileage: "17.2 kmpl",
                 transmission: "Manual/Automatic",
-                type: "Sedan",
-                features: ["Front and Rear Parking Sensors", "Bi-Xenon Headlights", "Bluetooth Connectivity"]
+                type: "Sedan"
             }
         }
     ],
@@ -266,7 +256,7 @@ const carData = {
         },
         {
             name: "Skoda Superb",
-            price: "₹2800/day",
+            price: "₹2,800/day",
             image: "image/SkodaSuperb.jpg",
             specs: {
                 engine: "1.0L Turbo",
@@ -277,7 +267,7 @@ const carData = {
         },
         {
             name: "Skoda Rapid",
-            price: "₹5.20 - 7.90 Lakh",
+            price: "₹3,000/day",
             image: "image/SkodaRapid.jpg",
             specs: {
                 engine: "1.2L VVT",
@@ -288,7 +278,7 @@ const carData = {
         },
         {
             name: "Skoda Laura",
-            price: "₹5.20 - 7.90 Lakh",
+            price: "₹3,999/day",
             image: "image/SkodaLaura.jpg",
             specs: {
                 engine: "1.2L VVT",
@@ -299,7 +289,7 @@ const carData = {
         },
         {
             name: "Skoda Octavia RS iV",
-            price: "₹5.20 - 7.90 Lakh",
+            price: "₹2,999/day",
             image: "image/Skoda Octavia RS iV.jpg",
             specs: {
                 engine: "1.2L VVT",
@@ -312,7 +302,7 @@ const carData = {
     Audi: [
         {
             name: "Audi A4",
-            price: "₹3,000/day",
+            price: "₹6,000/day",
             image: "image/Audi A4.jpg",
             specs: {
                 engine: "1.5L VVT",
@@ -323,7 +313,7 @@ const carData = {
         },
         {
             name: "Audi A6",
-            price: "₹2,500/day",
+            price: "₹7,500/day",
             image: "image/Audi A6.jpg",
             specs: {
                 engine: "1.2L VVT",
@@ -334,7 +324,7 @@ const carData = {
         },
         {
             name: "Audi A8",
-            price: "₹2800/day",
+            price: "₹9,800/day",
             image: "image/Audi A8.jpg",
             specs: {
                 engine: "1.0L Turbo",
@@ -345,7 +335,7 @@ const carData = {
         },
         {
             name: "Audi S5 Sportback",
-            price: "₹5.20 - 7.90 Lakh",
+            price: "₹10,000/day",
             image: "image/Audi S5 Sportback.jpg",
             specs: {
                 engine: "1.2L VVT",
@@ -356,7 +346,7 @@ const carData = {
         },
         {
             name: "Audi RS7 Sportback",
-            price: "₹5.20 - 7.90 Lakh",
+            price: "₹9,500/day",
             image: "image/Audi RS7 Sportback.jpg",
             specs: {
                 engine: "1.2L VVT",
@@ -367,7 +357,7 @@ const carData = {
         },
         {
             name: "Audi A5",
-            price: "₹5.20 - 7.90 Lakh",
+            price: "₹8,000/day",
             image: "image/Audi A5.jpg",
             specs: {
                 engine: "1.2L VVT",
@@ -381,7 +371,7 @@ const carData = {
     Mercedes: [
         {
         name: "Mercedes-Benz C-Class",
-        price: "₹3,000/day",
+        price: "₹18,000/day",
         image: "image/Mercedes-Benz C-Class.jpg",
         specs: {
             engine: "2.0L Inline-4 Turbo",
@@ -392,7 +382,7 @@ const carData = {
     },
     {
         name: "Mercedes-Benz E-Class",
-        price: "₹80,000/day",
+        price: "₹11,000/day",
         image: "image/Mercedes-Benz E-Class.jpg",
         specs: {
             engine: "2.0L Diesel/3.0L Petrol",
@@ -403,7 +393,7 @@ const carData = {
     },
     {
         name: "Mercedes-Benz S-Class",
-        price: "₹1,50,000/day",
+        price: "₹20,000/day",
         image: "image/Mercedes-Benz S-Class.jpg",
         specs: {
             engine: "3.0L Inline-6 Turbo",
@@ -436,7 +426,7 @@ const carData = {
     },
     {
         name: "Mercedes-Benz EQS",
-        price: "₹2,50,000/day",
+        price: "₹60,000/day",
         image: "image/Mercedes-Benz EQS.jpg",
         specs: {
             engine: "Electric Motor",
@@ -452,7 +442,7 @@ const carData = {
 
             {
                 name: "BMW 3 Series",
-                price: "₹4,000/day",
+                price: "₹25,000/day",
                 image: "image/BMW 3 Series.jpg",
                 specs: {
                     engine: "2.0L Inline-4 Turbo",
@@ -474,7 +464,7 @@ const carData = {
             },
             {
                 name: "BMW 7 Series",
-                price: "₹2,00,000/day",
+                price: "₹85,000/day",
                 image: "image/BMW 7 Series.jpg",
                 specs: {
                     engine: "3.0L Inline-6 Turbo",
@@ -485,7 +475,7 @@ const carData = {
             },
             {
                 name: "BMW M5",
-                price: "₹1,50,000/day",
+                price: "₹75,000/day",
                 image: "image/BMW M5.jpg",
                 specs: {
                     engine: "4.4L V8",
@@ -496,7 +486,7 @@ const carData = {
             },
             {
                 name: "BMW 6 Series Gran Turismo",
-                price: "₹1,20,000/day",
+                price: "₹95,000/day",
                 image: "image/BMW 6 Series Gran Turismo.jpg",
                 specs: {
                     engine: "2.0L Inline-4 Diesel",
@@ -507,7 +497,7 @@ const carData = {
             },
             {
                 name: "BMW i7",
-                price: "₹3,00,000/day",
+                price: "₹1,00,000/day",
                 image: "image/BMW i7.jpg",
                 specs: {
                     engine: "Electric Motor",

@@ -3,10 +3,12 @@ document.addEventListener('DOMContentLoaded', function() {
     const nameInput = document.getElementById('name');
     const mobileInput = document.getElementById('mobile');
     const emailInput = document.getElementById('email');
+    const passwordInput = document.getElementById('password');
     
     const nameError = document.getElementById('nameError');
     const mobileError = document.getElementById('mobileError');
     const emailError = document.getElementById('emailError');
+    const passwordError = document.getElementById('passwordError');
 
     // Enhanced name validation
     function validateName() {
