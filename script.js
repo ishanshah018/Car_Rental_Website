@@ -124,8 +124,9 @@ var swiper = new Swiper('.Blog_Swiper', {
         }
     }
 });
+document.getElementById("searchButton").addEventListener("click", function(event) {
+    event.preventDefault(); // Prevent any default action (like form submission)
 
-document.getElementById("searchButton").addEventListener("click", function() {
     const vehicleType = document.getElementById("vehicleType").value;
     const pickupLocation = document.getElementById("pickupLocation").value;
     const pickupDate = document.getElementById("pickupDate").value;
@@ -151,39 +152,36 @@ document.getElementById("searchButton").addEventListener("click", function() {
     }
 
     const now = new Date();
-    // Set the time to 00:00:00 for comparison
-    now.setHours(0, 0, 0, 0);
+    now.setHours(0, 0, 0, 0); // Set time to 00:00:00 for accurate comparison
 
-    // Convert pickupDate and returnDate to Date objects
     const pickupDateObj = new Date(pickupDate);
     const returnDateObj = new Date(returnDate);
 
-    // Validation: Pickup date-time should not be in the past
+    // Validation: Pickup date cannot be in the past
     if (pickupDateObj < now) {
         alert("Pickup date cannot be in the past. Please select a valid date.");
         return;
     }
 
-    // Validation: Return date-time should not be earlier than today
+    // Validation: Return date cannot be earlier than today
     if (returnDateObj < now) {
         alert("Return date cannot be earlier than today's date and Pickup Date. Please select a valid return date.");
         return;
     }
 
-    // Validation: Return date-time should be strictly after pickup date-time
+    // Validation: Return date must be after pickup date
     if (returnDateObj <= pickupDateObj) {
         alert("Return date must be after the pickup date. Please select a valid return date.");
         return;
     }
 
-    // If all fields are valid, redirect to the selected page
+    // If all validations pass, redirect to the selected page
     window.location.href = vehicleType;
 });
 
 document.addEventListener("DOMContentLoaded", function () {
     const readMoreBtn = document.getElementById("openPopup"); // Select "Read More" button
     const popupCard = document.getElementById("popupCard"); // Select Popup
-    const closePopup = document.getElementById("closePopup"); // Select Close Button
     const popupContent = document.querySelector(".popup-content"); // Select Popup Content
 
     // Show popup when "Read More" is clicked
@@ -220,10 +218,6 @@ document.addEventListener("DOMContentLoaded", function () {
             popupCard.style.display = "none";
         });
 
-        // Attach event listener to dynamically created close (X) button
-        document.getElementById("closePopup").addEventListener("click", function () {
-            popupCard.style.display = "none";
-        });
     });
 });
 

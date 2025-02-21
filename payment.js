@@ -16,7 +16,7 @@ document.addEventListener('DOMContentLoaded', function() {
     const pickupDate = sessionStorage.getItem('pickupDate');
     const returnDate = sessionStorage.getItem('returnDate');
     const pickupLocation = sessionStorage.getItem('pickupLocation');
-
+    
     // Extract daily rate from car price
     function extractDailyRate(priceString) {
         const match = priceString.match(/₹([\d,]+)/);

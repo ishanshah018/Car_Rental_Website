@@ -9,6 +9,10 @@
     text-decoration: none;
     font-family: "Work Sans", sans-serif;
 }
+::selection{
+    color: white;
+    background-color: var(--color-primary);
+}
 
 :root {
     --color-primary: red;
@@ -405,54 +409,12 @@ select {
     position: relative;
 }
 
-.hero_mercedes::after {
-    /* content: 'Mercedes'; */
-    position: absolute;
-    font-size: 6.5vw;
-    font-weight: 700;
-    left: 50%;
-    top: 10%;
-    transform: translate(-50%, -50%);
-    background: #000;
-    color: transparent;
-    -webkit-text-stroke: 1px rgba(255, 255, 255, .5);
-    width: 100%;
-}
 
 .hero_right img {
     position: absolute;
     width: 110%;
     bottom: -14%;
     right: -5%;
-}
-/* 
-.mercedes_price {
-    position: absolute;
-    right: -15%;
-    top: 30%;
-    padding: 20px 10px 20px 60px;
-    transform: translate(-50%, -50%);
-    background-color: var(--color-text);
-    color: var(--color-secondary);
-    display: flex;
-    justify-content: center;
-    align-items: flex-end;
-    flex-direction: column;
-    border-radius: 20px 0 0 20px;
-} */
-
-.mercedes_price div {
-    font-size: 1rem;
-    text-transform: uppercase;
-}
-
-.mercedes_price div span {
-    font-size: 2rem;
-    color: var(--color-primary);
-    font-weight: 700;
-    transform: translateY(5px) rotate(0deg);
-    animation: moves 1s infinite linear;
-    display: inline-block;
 }
 
 /* About Section */
@@ -598,24 +560,6 @@ select {
     font-size: 15px;
 }
 
-/* Close Button */
-#closePopupBtn {
-    margin-top: 20px;
-    background: #ff4d4d;
-    color: white;
-    padding: 10px 20px;
-    border-radius: 10px;
-    font-size: 16px;
-    border: none;
-    cursor: pointer;
-    transition: 0.3s;
-}
-
-#closePopupBtn:hover {
-    background: darkred;
-}
-
-
 @keyframes moves {
     0% {
         transform: translateY(5px) rotate(0deg);
@@ -654,81 +598,6 @@ select {
     100% {
         transform: translateY(5px) rotate(0deg);
     }
-}
-
-
-/* Our_Adventure Section */
-.Our_Adventure {
-    flex-direction: column;
-    position: relative;
-    height: 100%;
-}
-
-.Our_Adventure::after {
-    content: '';
-    position: absolute;
-    top: 0%;
-    left: 0%;
-    min-height: 100%;
-    width: 100%;
-    background-image: url(image/half-bg-pic.jpg);
-    background-repeat: no-repeat;
-    background-size: 100%;
-    background-position: left;
-}
-
-.Our_Adventure_title {
-    width: 100%;
-    color: var(--color-secondary);
-    z-index: 1;
-}
-
-.Our_Adventure_Wrap {
-    width: 100%;
-    display: grid;
-    grid-template-columns: repeat(3, 1fr);
-    place-content: center;
-    place-items: center;
-    gap: 50px;
-    z-index: 1;
-}
-
-.Our_Adventure_Card {
-    height: 90px;
-    width: 100%;
-    display: flex;
-    justify-content: center;
-    align-items: flex-start;
-    color: var(--color-secondary);
-    gap: 20px;
-}
-
-.Our_Adventure_Icon {
-    width: 250px;
-    height: 100px;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    background-color: var(--color-primary);
-    border-radius: 30px 30px 0 0;
-}
-
-.Our_Adventure_Icon img {
-    width: 50%;
-    height: 50%;
-    object-fit: contain;
-    filter: brightness(0) saturate(100%) invert(100%) sepia(0%) saturate(0%) hue-rotate(72deg) brightness(107%) contrast(103%);
-}
-
-.Our_Adventure_Info h3 {
-    font-size: 1.4rem;
-    padding-bottom: 10px;
-}
-
-.Our_Adventure_Info p {
-    font-size: 0.9rem;
-    line-height: 1.5rem;
-    color: var(--color-light);
 }
 
 
@@ -992,12 +861,12 @@ select {
     align-items: start;
     z-index: 2;
     border-radius: 30px 30px 0 0;
-    box-shadow: -6px -6px #fff;
+    box-shadow: -6px -6px white;
 }
 
 .Working_Info h4 {
     font-size: 1.2rem;
-    font-weight: 500;
+    font-weight: 600;
     padding-bottom: 10px;
 }
 
@@ -1006,11 +875,6 @@ select {
     font-weight: 500;
     font-size: 1rem;
     line-height: 1.5rem;
-}
-
-#adv_Cars {
-    width: 100%;
-    filter: drop-shadow(5px 3px 10px rgba(0, 0, 0, 1));
 }
 
 
@@ -1038,7 +902,7 @@ select {
     align-items: start;
     background-color: #f4f5f7;
     padding: 50px 30px;
-    border-radius: 80px 80px 0 0;
+    border-radius: 50px 50px  50px 50px;
     gap: 20px;
 }
 
@@ -1050,10 +914,6 @@ select {
     gap: 30px;
 }
 
-.Tst_Top img {
-    border-radius: 50% 50% 0 50%;
-    width: 25%;
-}
 
 .Tst_Top h4 {
     font-size: 1.3rem;
@@ -1062,12 +922,6 @@ select {
     line-height: 1.5rem;
 }
 
-.Tst_Top h4 span {
-    display: block;
-    color: var(--color-gray-light);
-    font-size: 1rem;
-    font-weight: 500;
-}
 
 .Testimonials_Item p {
     color: var(--color-gray-light);

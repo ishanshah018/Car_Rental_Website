@@ -7,7 +7,7 @@
     <title>Autoluxe Website(car)</title>
 
     
-    
+    <!-- CSS Linking -->
     <link rel="stylesheet" href="style.css">
     <!-- font awesome cdn -->
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.1/css/all.min.css"
@@ -24,7 +24,7 @@
 
 </head>
 
-<body id = "top">
+<body >
     <nav class="navbar" data-header>
         <div class="logo">
             <h2>
@@ -71,7 +71,7 @@
                             <div class="Input_Box">
                                 <label>Choose Vehicle Type</label>
                                 <select id="vehicleType">
-                                    <option value="" selected disabled>Model</option>
+                                    <option value="" selected disabled hidden>Model</option>
                                     <option value="sedan.html">Sedan</option>
                                     <option value="suv.html">SUV</option>
                                     <option value="hatchback.html">Hatchback</option>
@@ -81,7 +81,7 @@
                             <div class="Input_Box">
                                 <label>Pick up Location</label>
                                 <select id="pickupLocation">
-                                    <option value="" selected disabled>City</option>
+                                    <option value="" selected disabled hidden>City</option>
                                     <option>Ahmedabad</option>
                                     <option>Surat</option>
                                     <option>Gandhinagar</option>
@@ -116,10 +116,7 @@
         </div>
         <div class="hero_right">
             <div class="hero_mercedes">
-                <div class="mercedes_price">
-                    <!-- <div>Mercedes</div>
-                    <div><span>$800</span>/day</div> -->
-                </div>
+    
             </div>
             <img src="image/car (1).png" alt="" id="Hero_Image">
         </div>
@@ -162,47 +159,7 @@
     </div>
 </div>
 
-    <!-- Our Adventure Section -->
-    <div class="Our_Adventure section">
-        <div class="Our_Adventure_title section_title">
-            <span class="span">One step towards you</span>
-            <h3>Begin the Adventure of a Lifetime</h3>
-        </div>
-
-        <div class="Our_Adventure_Wrap">
-            <div class="Our_Adventure_Card">
-                <div class="Our_Adventure_Icon">
-                    <img src="image/label.png" alt="">
-                </div>
-                <div class="Our_Adventure_Info">
-                    <h3>Affordable Solutions for Every Wallet</h3>
-                    <p>No matter your budget, we have the perfect deal for you. Enjoy high-quality service and great
-                        value tailored to your needs.</p>
-                </div>
-            </div>
-            <div class="Our_Adventure_Card">
-                <div class="Our_Adventure_Icon">
-                    <img src="image/customer-support.png" alt="">
-                </div>
-                <div class="Our_Adventure_Info">
-                    <h3>Grate Deals, Whatever Your Budget</h3>
-                    <p>From budget-friendly options to premium packages, we offer something for everyone. Get the best
-                        value without compromising on quality</p>
-                </div>
-            </div>
-            <div class="Our_Adventure_Card">
-                <div class="Our_Adventure_Icon">
-                    <img src="image/customer-support.png" alt="">
-                </div>
-                <div class="Our_Adventure_Info">
-                    <h3>Tailored Deals to Fit Your Budget</h3>
-                    <p>We understand that every budget is different. That’s why we offer flexible deals that provide the
-                        best service at a price you can afford.</p>
-                </div>
-            </div>
-        </div>
-    </div>
-
+    
     <!-- Our Feels -->
 
     <div class="Our_Feels section" id="cars">
@@ -410,7 +367,6 @@
                         <img src="image/pic3.jpg" alt="">
                         <span class="Categories_text">
                             Hatchback
-                            <a href="hatchback_html.html"></a>
                         </span>
                     </div>
                 </div>
@@ -449,25 +405,25 @@
     <!-- Working -->
     <div class="Working section" id="book">
         <div class="Working_title section_title">
-            <span class="span">How it Work</span>
-            <h3>Process of Booking A Car</h3>
+            <span class="span">How It Works</span>
+            <h3>Process of Booking a Car</h3>
         </div>
         <div class="Working_Wrap">
             <div class="Working_item">
                 <span>01</span>
                 <div class="Working_Info">
-                    <h4>Choose A Car</h4>
+                    <h4>Select Your Car</h4>
                     <p>
-                        Check out our range of cars and choose the car of your choice
+                        Browse through our extensive fleet of cars, compare features, and choose the one that best suits your needs.
                     </p>
                 </div>
             </div>
             <div class="Working_item">
                 <span>02</span>
                 <div class="Working_Info">
-                    <h4>Pick Up Date</h4>
+                    <h4>Pick Your Dates</h4>
                     <p>
-                        Check out our range of cars and choose the car of your choice
+                        Choose your desired pickup and return dates to check availability and pricing for your selected vehicle.
                     </p>
                 </div>
             </div>
@@ -476,30 +432,30 @@
                 <div class="Working_Info">
                     <h4>Confirm Your Booking</h4>
                     <p>
-                        Check out our range of cars and choose the car of your choice
+                        Enter your details, select any additional services, and make a secure payment to finalize your booking.
                     </p>
                 </div>
             </div>
             <div class="Working_item">
                 <span>04</span>
                 <div class="Working_Info">
-                    <h4>Enjoy Driving</h4>
+                    <h4>Drive & Enjoy</h4>
                     <p>
-                        Check out our range of cars and choose the car of your choice
+                        Pick up your car at the selected location and enjoy a smooth, hassle-free driving experience.
                     </p>
                 </div>
             </div>
         </div>
-
+    
         <div class="adv_Cars">
-            <img src="image/adv-car.png" alt="" id="adv_Cars">
+            <img src="image/adv-car.png" alt="Car Rental Advertisement" >
         </div>
     </div>
 
     <!-- Testmonials Section -->
     <div class="Testimonials section">
         <div class="Testimonials_title section_title">
-            <span class="span">Tesimonials</span>
+            <span class="span">Reviews</span>
             <h3>What Our Customers Say</h3>
         </div>
         <div class="swiper Tst_Swiper">
@@ -507,13 +463,13 @@
                 <div class="swiper-slide">
                     <div class="Testimonials_Item">
                         <div class="Tst_Top">
-                            <img src="image/pic1 (1).jpg" alt="">
-                            <h4>Kevin Martin <span>Customers</span> </h4>
+                            
+                            <h4>Ravi Sharma </h4>
                         </div>
                         <p>
-                            I Was Very Impresed Lorem posuere in miss and drana
-                            en the nisan semere sceriun amiss etiam ornare in
-                            the miss drana is lorem fermen mauris.
+                            I was very impressed by the excellent service and smooth experience. 
+                            The staff was courteous, and everything was handled professionally. 
+                            Highly recommended!
                         </p>
                         <div class="star">
                             <i class="fa-solid fa-star"></i>
@@ -528,13 +484,12 @@
                 <div class="swiper-slide">
                     <div class="Testimonials_Item">
                         <div class="Tst_Top">
-                            <img src="image/pic2 (1).jpg" alt="">
-                            <h4>Devin Cullen <span>Customers</span> </h4>
+                            
+                            <h4>Priya Verma </h4>
                         </div>
                         <p>
-                            I Was Very Impresed Lorem posuere in miss and drana
-                            en the nisan semere sceriun amiss etiam ornare in
-                            the miss drana is lorem fermen mauris.
+                            The service was outstanding! Everything was delivered on time, and 
+                            I had a hassle-free experience. Would definitely use it again!
                         </p>
                         <div class="star">
                             <i class="fa-solid fa-star"></i>
@@ -549,13 +504,12 @@
                 <div class="swiper-slide">
                     <div class="Testimonials_Item">
                         <div class="Tst_Top">
-                            <img src="image/pic3 (2).jpg" alt="">
-                            <h4>Piter Has <span>Customers</span> </h4>
+                            
+                            <h4>Amit Kumar  </h4>
                         </div>
                         <p>
-                            I Was Very Impresed Lorem posuere in miss and drana
-                            en the nisan semere sceriun amiss etiam ornare in
-                            the miss drana is lorem fermen mauris.
+                            Fantastic experience! The team was very professional and ensured everything 
+                            was taken care of. Highly satisfied with their service.
                         </p>
                         <div class="star">
                             <i class="fa-solid fa-star"></i>
@@ -570,30 +524,26 @@
                 <div class="swiper-slide">
                     <div class="Testimonials_Item">
                         <div class="Tst_Top">
-                            <img src="image/pic2 (1).jpg" alt="">
-                            <h4>Devin Cullen <span>Customers</span> </h4>
+                            
+                            <h4>Sunita Joshi  </h4>
                         </div>
                         <p>
-                            I Was Very Impresed Lorem posuere in miss and drana
-                            en the nisan semere sceriun amiss etiam ornare in
-                            the miss drana is lorem fermen mauris.
+                            Car Cleanliness is not much good
                         </p>
                         <div class="star">
                             <i class="fa-solid fa-star"></i>
                             <i class="fa-solid fa-star"></i>
                             <i class="fa-solid fa-star"></i>
-                            <i class="fa-solid fa-star"></i>
-                            <i class="fa-solid fa-star"></i>
+                            
                         </div>
                     </div>
                 </div>
             </div>
         </div>
     </div>
-
     <!-- Rules -->
     
-    <div class="rules" id="terms">
+    <div class="rules">
         <h2 id="section-title">TERMS & CONDITIONS</h2>
         <table class="info-table">
             <tr>
@@ -719,7 +669,7 @@
 <!-- 
 - #BACK TO TOP
 -->
-    <a href="#top" class="back-top-btn" aria-label="Back to top" data-back-top-btn>
+    <a href="#" class="back-top-btn" aria-label="Back to top" data-back-top-btn>
     &#8593; <!-- Up arrow -->
     </a>  
 
